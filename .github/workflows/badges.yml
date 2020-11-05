@@ -15,16 +15,15 @@ jobs:
     steps:
     
     - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: |
-        apt-get update
-        apt-get install -y curl git ruby-octokit
+    
+    - name: Setup ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+    - run: bundle install
     
     - name: Make svgs
-      run: |
-        git config --global user.email "myrmecocystus+ropenscibot@gmail.com"
-        git config --global user.name "ropenscibot"
-        ruby update_badges.rb
+      run: ruby update_badges.rb
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.5.7
