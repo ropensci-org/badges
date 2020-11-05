@@ -1,0 +1,34 @@
+name: update-badges
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "58 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: |
+        apt-get update
+        apt-get install -y curl git ruby-octokit
+    
+    - name: Make svgs
+      run: |
+        git config --global user.email "myrmecocystus+ropenscibot@gmail.com"
+        git config --global user.name "ropenscibot"
+        ruby update_badges.rb
+
+    - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.5.7
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: pkgsvgs
