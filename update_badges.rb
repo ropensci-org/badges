@@ -32,3 +32,6 @@ iss_peer_rev_files.map { |e| FileUtils.cp(svg_peer_reviewed, 'pkgsvgs/' + e) }
 
 svg_unknown = "svgs/unknown.svg"
 iss_unknown_files.map { |e| FileUtils.cp(svg_unknown, 'pkgsvgs/' + e) }
+
+# copy CNAME file to gh-pages
+FileUtils.cp("CNAME", 'pkgsvgs/')
