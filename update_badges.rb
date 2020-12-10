@@ -61,4 +61,5 @@ iss_hashes = [iss_pending, iss_peer_rev].flatten.map { |e|
 File.open("onboarded.json","w") do |f|
   f.write(JSON.pretty_generate(iss_hashes))
 end
-FileUtils.cp("onboarded.json", 'pkgsvgs/')
+FileUtils.mkdir('pkgsvgs/json')
+FileUtils.cp("onboarded.json", 'pkgsvgs/json/')
