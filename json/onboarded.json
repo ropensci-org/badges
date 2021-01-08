@@ -70,6 +70,13 @@
     "version": null
   },
   {
+    "pkgname": "chemspiderapi",
+    "submitter": "RaoulWolf",
+    "iss_no": 329,
+    "status": "pending",
+    "version": "0.0.2"
+  },
+  {
     "pkgname": "exoplanets",
     "submitter": "tyluRp",
     "iss_no": 309,
