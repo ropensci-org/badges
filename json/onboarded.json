@@ -28,13 +28,6 @@
     "version": "0.5.0"
   },
   {
-    "pkgname": "targets",
-    "submitter": "wlandau",
-    "iss_no": 401,
-    "status": "pending",
-    "version": "0.0.0.9001"
-  },
-  {
     "pkgname": "osmextract",
     "submitter": "agila5",
     "iss_no": 395,
@@ -201,6 +194,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "targets",
+    "submitter": "wlandau",
+    "iss_no": 401,
+    "status": "reviewed",
+    "version": "0.0.0.9001"
   },
   {
     "pkgname": "phonfieldwork",
