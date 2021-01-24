@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "aquamapsdata",
+    "submitter": "mskyttner",
+    "iss_no": 421,
+    "status": "pending",
+    "version": "0.1.6"
+  },
+  {
     "pkgname": "censo2017",
     "submitter": "pachamaltese",
     "iss_no": 414,
