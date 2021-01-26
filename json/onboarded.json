@@ -28,13 +28,6 @@
     "version": "0.4.0"
   },
   {
-    "pkgname": "pixelclasser",
-    "submitter": "CarlosRealR",
-    "iss_no": 406,
-    "status": "pending",
-    "version": "0.5.0"
-  },
-  {
     "pkgname": "osmextract",
     "submitter": "agila5",
     "iss_no": 395,
@@ -201,6 +194,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "pixelclasser",
+    "submitter": "CarlosRealR",
+    "iss_no": 406,
+    "status": "reviewed",
+    "version": "0.5.0"
   },
   {
     "pkgname": "targets",
