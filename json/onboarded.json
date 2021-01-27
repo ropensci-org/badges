@@ -28,13 +28,6 @@
     "version": "0.4.0"
   },
   {
-    "pkgname": "osmextract",
-    "submitter": "agila5",
-    "iss_no": 395,
-    "status": "pending",
-    "version": "0.1.0"
-  },
-  {
     "pkgname": "readODS",
     "submitter": "chainsawriot",
     "iss_no": 386,
@@ -208,6 +201,13 @@
     "iss_no": 401,
     "status": "reviewed",
     "version": "0.0.0.9001"
+  },
+  {
+    "pkgname": "osmextract",
+    "submitter": "agila5",
+    "iss_no": 395,
+    "status": "reviewed",
+    "version": "0.1.0"
   },
   {
     "pkgname": "phonfieldwork",
