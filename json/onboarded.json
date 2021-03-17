@@ -1,31 +1,38 @@
 [
   {
-    "pkgname": "aquamapsdata",
-    "submitter": "mskyttner",
-    "iss_no": 421,
+    "pkgname": "ROriginStamp",
+    "submitter": "rkrug",
+    "iss_no": 433,
     "status": "pending",
-    "version": "0.1.6"
+    "version": "0.8.0"
   },
   {
-    "pkgname": "terrainr",
-    "submitter": "mikemahoney218",
-    "iss_no": 416,
+    "pkgname": "stantargets",
+    "submitter": "wlandau",
+    "iss_no": 430,
     "status": "pending",
-    "version": "0.2.0"
+    "version": "0.0.0.9000"
+  },
+  {
+    "pkgname": "dataaimsr",
+    "submitter": "dbarneche",
+    "iss_no": 428,
+    "status": "pending",
+    "version": "1.0.2"
+  },
+  {
+    "pkgname": "dataspice",
+    "submitter": "amoeba",
+    "iss_no": 426,
+    "status": "pending",
+    "version": "1.0.0"
   },
   {
     "pkgname": "censo2017",
     "submitter": "pachamaltese",
     "iss_no": 414,
     "status": "pending",
-    "version": null
-  },
-  {
-    "pkgname": "pathviewR",
-    "submitter": "vbaliga",
-    "iss_no": 409,
-    "status": "pending",
-    "version": "0.9.4"
+    "version": "0.4"
   },
   {
     "pkgname": "occCite",
@@ -60,7 +67,7 @@
     "submitter": "pat-s",
     "iss_no": 356,
     "status": "pending",
-    "version": null
+    "version": "0.7.0"
   },
   {
     "pkgname": "chemspiderapi",
@@ -194,6 +201,20 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "terrainr",
+    "submitter": "mikemahoney218",
+    "iss_no": 416,
+    "status": "reviewed",
+    "version": "0.2.0"
+  },
+  {
+    "pkgname": "pathviewR",
+    "submitter": "vbaliga",
+    "iss_no": 409,
+    "status": "reviewed",
+    "version": "0.9.4"
   },
   {
     "pkgname": "pixelclasser",
