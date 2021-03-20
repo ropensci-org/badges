@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "mctq",
+    "submitter": "danielvartan",
+    "iss_no": 434,
+    "status": "pending",
+    "version": "0.0.0.9000"
+  },
+  {
     "pkgname": "ROriginStamp",
     "submitter": "rkrug",
     "iss_no": 433,
