@@ -217,6 +217,13 @@
     "version": "0.4-7"
   },
   {
+    "pkgname": "dataaimsr",
+    "submitter": "dbarneche",
+    "iss_no": 428,
+    "status": "pending",
+    "version": "1.0.2"
+  },
+  {
     "pkgname": "terrainr",
     "submitter": "mikemahoney218",
     "iss_no": 416,
