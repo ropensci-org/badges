@@ -35,6 +35,13 @@
     "version": "1.0.0"
   },
   {
+    "pkgname": "slopes",
+    "submitter": "temospena",
+    "iss_no": 420,
+    "status": "pending",
+    "version": "0.0.0.9000"
+  },
+  {
     "pkgname": "censo2017",
     "submitter": "pachamaltese",
     "iss_no": 414,
