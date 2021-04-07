@@ -14,13 +14,6 @@
     "version": "0.8.0"
   },
   {
-    "pkgname": "stantargets",
-    "submitter": "wlandau",
-    "iss_no": 430,
-    "status": "pending",
-    "version": "0.0.0.9000"
-  },
-  {
     "pkgname": "dataaimsr",
     "submitter": "dbarneche",
     "iss_no": 428,
@@ -222,6 +215,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "stantargets",
+    "submitter": "wlandau",
+    "iss_no": 430,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
   },
   {
     "pkgname": "dataaimsr",
