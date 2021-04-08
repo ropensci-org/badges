@@ -14,13 +14,6 @@
     "version": "0.8.0"
   },
   {
-    "pkgname": "dataaimsr",
-    "submitter": "dbarneche",
-    "iss_no": 428,
-    "status": "pending",
-    "version": "1.0.2"
-  },
-  {
     "pkgname": "dataspice",
     "submitter": "amoeba",
     "iss_no": 426,
@@ -75,13 +68,6 @@
     "iss_no": 358,
     "status": "pending",
     "version": "0.0.1"
-  },
-  {
-    "pkgname": "circle",
-    "submitter": "pat-s",
-    "iss_no": 356,
-    "status": "pending",
-    "version": "0.7.0"
   },
   {
     "pkgname": "chemspiderapi",
@@ -227,7 +213,7 @@
     "pkgname": "dataaimsr",
     "submitter": "dbarneche",
     "iss_no": 428,
-    "status": "pending",
+    "status": "reviewed",
     "version": "1.0.2"
   },
   {
@@ -332,7 +318,7 @@
     "pkgname": "circle",
     "submitter": "pat-s",
     "iss_no": 356,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.7.0"
   },
   {
