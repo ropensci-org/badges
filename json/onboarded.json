@@ -35,13 +35,6 @@
     "version": "0.0.0.9000"
   },
   {
-    "pkgname": "censo2017",
-    "submitter": "pachamaltese",
-    "iss_no": 414,
-    "status": "pending",
-    "version": "0.4"
-  },
-  {
     "pkgname": "occCite",
     "submitter": "hannahlowens",
     "iss_no": 407,
@@ -229,6 +222,13 @@
     "iss_no": 416,
     "status": "reviewed",
     "version": "0.2.0"
+  },
+  {
+    "pkgname": "censo2017",
+    "submitter": "pachamaltese",
+    "iss_no": 414,
+    "status": "reviewed",
+    "version": "0.4"
   },
   {
     "pkgname": "pathviewR",
