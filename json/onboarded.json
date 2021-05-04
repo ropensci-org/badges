@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "rsat",
+    "submitter": "unai-perez",
+    "iss_no": 437,
+    "status": "pending",
+    "version": "0.1.14"
+  },
+  {
     "pkgname": "gendercoder",
     "submitter": "ekothe",
     "iss_no": 435,
