@@ -7,6 +7,13 @@
     "version": "0.1.14"
   },
   {
+    "pkgname": "allodb",
+    "submitter": "gonzalezeb",
+    "iss_no": 436,
+    "status": "pending",
+    "version": "0.0.0.9000"
+  },
+  {
     "pkgname": "gendercoder",
     "submitter": "ekothe",
     "iss_no": 435,
