@@ -238,6 +238,13 @@
     "version": "1.0.2"
   },
   {
+    "pkgname": "dataspice",
+    "submitter": "amoeba",
+    "iss_no": 426,
+    "status": "pending",
+    "version": "1.0.0"
+  },
+  {
     "pkgname": "terrainr",
     "submitter": "mikemahoney218",
     "iss_no": 416,
