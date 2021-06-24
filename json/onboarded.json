@@ -210,6 +210,13 @@
     "version": "1.0.0.0"
   },
   {
+    "pkgname": "riem",
+    "submitter": "maelle",
+    "iss_no": 39,
+    "status": "pending",
+    "version": "0.1.0"
+  },
+  {
     "pkgname": "rsdmx",
     "submitter": "eblondel",
     "iss_no": 15,
@@ -1291,7 +1298,7 @@
     "pkgname": "riem",
     "submitter": "maelle",
     "iss_no": 39,
-    "status": "reviewed",
+    "status": "pending",
     "version": "0.1.0"
   },
   {
