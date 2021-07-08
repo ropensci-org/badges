@@ -3,7 +3,7 @@
 require 'fileutils'
 require 'octokit'
 require 'json'
-require_relative 'test-data'
+# require_relative 'test-data'
 
 # SET statistical software review colors and versions
 ## svg_map gets created below from these
@@ -21,9 +21,9 @@ sr_issues = con.issues('ropensci/software-review', state: "all");
 ssr_issues = con.issues("ropenscilabs/statistical-software-review", state: "all");
 
 # FIXME: remove this when real data is available - add fake labels
-ssr_issues.each_with_index { |e, i| 
-  e.labels << $stats_review_labels[i]
-};
+# ssr_issues.each_with_index { |e, i| 
+#   e.labels << $stats_review_labels[i]
+# };
 
 issues = sr_issues + ssr_issues;
 
@@ -31,7 +31,7 @@ issues = sr_issues + ssr_issues;
 iss_pending = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/review|seeking/).any? };
 # filter to labels with approved via grep
 ## ropensci review and stats review
-iss_peer_rev = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/approved|editor-checks/).any? };
+iss_peer_rev = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/approved/).any? };
 # make out of bounds value, different for regular and stats review
 sr_oob = sr_issues.map(&:number).max + 1
 ssr_oob = ssr_issues.map(&:number).max + 1
@@ -91,13 +91,21 @@ iss_hashes = [iss_pending, iss_peer_rev].flatten.map { |e|
   # submitter
   user = e.user.login
   # status
-  stat_checks = [
+  status_checks = [
     e.labels.map{|w| w[:name]}.grep(/review|seeking/).any?,
     e.labels.map{|w| w[:name]}.grep(/approved/).any?
   ]
   choices = ["pending", "reviewed"]
-  status = choices.select.with_index { |_, i| stat_checks[i] }[0]
-  {"pkgname" => pkg, "submitter" => user, "iss_no" => iss, "status" => status, "version" => version}
+  status = choices.select.with_index { |_, i| status_checks[i] }[0]
+  stats_version = versions.select { |str| e.labels.map{|w| w[:name]}.map { |z| z.include? str }.any? }.first
+  {
+    "pkgname" => pkg,
+    "submitter" => user,
+    "iss_no" => iss,
+    "status" => status,
+    "version" => version,
+    "stats_version" => stats_version || nil
+  }
 }
 File.open("onboarded.json", "w") do |f|
   f.write(JSON.pretty_generate(iss_hashes))
