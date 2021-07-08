@@ -14,7 +14,20 @@ The `Gemfile` defines dependencies for the code in `update_badges.rb`. The Ruby 
 
 The folder `svgs` holds the svg files used by `update_badges.rb`. Make sure to add svg's here if you want them to be available to the `update_badges.rb` script. The folder `pkgsvgs` is empty (except for a placeholder file so that git doesn't ignore the folder) and holds the output svg files for each issue.
 
-A JSON file with metadata is output from the `update_badges.rb` script and is put into the path `pkgsvgs/json/onboarded.json`
+- Note that there are not yet appropriate stats review badges in the `svgs` folder. A copy of `peer-reviewed.svg` was made for gold, silver and bronze to be able to test code
+
+A JSON file with metadata is output from the `update_badges.rb` script and is put into the path `pkgsvgs/json/onboarded.json`. The structure for each issue in the output JSON is:
+
+```json
+{
+    "pkgname": "bizbaz",
+    "submitter": "janedoe",
+    "iss_no": 10,
+    "status": "reviewed",
+    "version": "0.1.14",
+    "stats_version": "0.0.1"
+}
+```
 
 The GitHub Actions workflow runs: 
 
