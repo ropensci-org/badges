@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "excluder",
+    "submitter": "JeffreyRStevens",
+    "iss_no": 455,
+    "status": "pending",
+    "version": "0.2.2"
+  },
+  {
     "pkgname": "rsat",
     "submitter": "unai-perez",
     "iss_no": 437,
