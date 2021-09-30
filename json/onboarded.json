@@ -21,13 +21,6 @@
     "version": "0.2.2"
   },
   {
-    "pkgname": "rsat",
-    "submitter": "unai-perez",
-    "iss_no": 437,
-    "status": "pending",
-    "version": "0.1.14"
-  },
-  {
     "pkgname": "gendercoder",
     "submitter": "ekothe",
     "iss_no": 435,
@@ -229,6 +222,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "rsat",
+    "submitter": "unai-perez",
+    "iss_no": 437,
+    "status": "reviewed",
+    "version": "0.1.14"
   },
   {
     "pkgname": "allodb",
