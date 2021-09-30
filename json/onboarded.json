@@ -1,5 +1,19 @@
 [
   {
+    "pkgname": "cffr",
+    "submitter": "dieghernan",
+    "iss_no": 463,
+    "status": "pending",
+    "version": "0.0.1.9001"
+  },
+  {
+    "pkgname": "phruta",
+    "submitter": "cromanpa94",
+    "iss_no": 458,
+    "status": "pending",
+    "version": "0.1.0"
+  },
+  {
     "pkgname": "excluder",
     "submitter": "JeffreyRStevens",
     "iss_no": 455,
@@ -12,13 +26,6 @@
     "iss_no": 437,
     "status": "pending",
     "version": "0.1.14"
-  },
-  {
-    "pkgname": "allodb",
-    "submitter": "gonzalezeb",
-    "iss_no": 436,
-    "status": "pending",
-    "version": "0.0.0.9000"
   },
   {
     "pkgname": "gendercoder",
@@ -49,18 +56,11 @@
     "version": "1.0.0"
   },
   {
-    "pkgname": "jagstargets",
-    "submitter": "wlandau",
-    "iss_no": 425,
+    "pkgname": "epair",
+    "submitter": "GLOrozcoM",
+    "iss_no": 418,
     "status": "pending",
-    "version": "0.0.0.9000"
-  },
-  {
-    "pkgname": "slopes",
-    "submitter": "temospena",
-    "iss_no": 420,
-    "status": "pending",
-    "version": "0.0.0.9000"
+    "version": "0.1.0"
   },
   {
     "pkgname": "occCite",
@@ -231,6 +231,13 @@
     "version": "0.4-7"
   },
   {
+    "pkgname": "allodb",
+    "submitter": "gonzalezeb",
+    "iss_no": 436,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
+  },
+  {
     "pkgname": "awardFindR",
     "submitter": "mccallc",
     "iss_no": 432,
@@ -257,6 +264,20 @@
     "iss_no": 426,
     "status": "pending",
     "version": "1.0.0"
+  },
+  {
+    "pkgname": "jagstargets",
+    "submitter": "wlandau",
+    "iss_no": 425,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
+  },
+  {
+    "pkgname": "slopes",
+    "submitter": "temospena",
+    "iss_no": 420,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
   },
   {
     "pkgname": "terrainr",
