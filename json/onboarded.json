@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "tidyqpcr",
+    "submitter": "ewallace",
+    "iss_no": 470,
+    "status": "pending",
+    "version": "0.3"
+  },
+  {
     "pkgname": "cffr",
     "submitter": "dieghernan",
     "iss_no": 463,
