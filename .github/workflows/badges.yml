@@ -30,3 +30,5 @@ jobs:
       with:
         branch: gh-pages
         folder: pkgsvgs
+        git-config-name: ropenscibot
+        git-config-email: accounts+ropenscibot@ropensci.org
