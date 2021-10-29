@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "OmicsMetaData",
+    "submitter": "msweetlove",
+    "iss_no": 471,
+    "status": "pending",
+    "version": "0.0.1"
+  },
+  {
     "pkgname": "tidyqpcr",
     "submitter": "ewallace",
     "iss_no": 470,
@@ -38,13 +45,6 @@
     "pkgname": "gendercoder",
     "submitter": "ekothe",
     "iss_no": 435,
-    "status": "pending",
-    "version": "0.0.0.9000"
-  },
-  {
-    "pkgname": "mctq",
-    "submitter": "danielvartan",
-    "iss_no": 434,
     "status": "pending",
     "version": "0.0.0.9000"
   },
@@ -248,6 +248,13 @@
     "pkgname": "allodb",
     "submitter": "gonzalezeb",
     "iss_no": 436,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
+  },
+  {
+    "pkgname": "mctq",
+    "submitter": "danielvartan",
+    "iss_no": 434,
     "status": "reviewed",
     "version": "0.0.0.9000"
   },
