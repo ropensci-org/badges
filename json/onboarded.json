@@ -238,6 +238,13 @@
     "version": "0.4-7"
   },
   {
+    "pkgname": "cffr",
+    "submitter": "dieghernan",
+    "iss_no": 463,
+    "status": "pending",
+    "version": "0.0.1.9001"
+  },
+  {
     "pkgname": "rsat",
     "submitter": "unai-perez",
     "iss_no": 437,
