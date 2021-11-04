@@ -35,13 +35,6 @@
     "version": "0.1.0"
   },
   {
-    "pkgname": "excluder",
-    "submitter": "JeffreyRStevens",
-    "iss_no": 455,
-    "status": "pending",
-    "version": "0.2.2"
-  },
-  {
     "pkgname": "gendercoder",
     "submitter": "ekothe",
     "iss_no": 435,
@@ -243,6 +236,13 @@
     "iss_no": 463,
     "status": "pending",
     "version": "0.0.1.9001"
+  },
+  {
+    "pkgname": "excluder",
+    "submitter": "JeffreyRStevens",
+    "iss_no": 455,
+    "status": "reviewed",
+    "version": "0.2.2"
   },
   {
     "pkgname": "rsat",
