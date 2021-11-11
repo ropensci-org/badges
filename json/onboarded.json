@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "qualR",
+    "submitter": "quishqa",
+    "iss_no": 474,
+    "status": "pending",
+    "version": "0.9.5"
+  },
+  {
     "pkgname": "OmicsMetaData",
     "submitter": "msweetlove",
     "iss_no": 471,
