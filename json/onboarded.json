@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "rfema",
+    "submitter": "dylan-turner25",
+    "iss_no": 484,
+    "status": "pending",
+    "version": "0.0.0.9000"
+  },
+  {
     "pkgname": "qualR",
     "submitter": "quishqa",
     "iss_no": 474,
