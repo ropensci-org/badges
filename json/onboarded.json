@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "gittargets",
+    "submitter": "wlandau",
+    "iss_no": 486,
+    "status": "pending",
+    "version": "0.0.0.9000"
+  },
+  {
     "pkgname": "rfema",
     "submitter": "dylan-turner25",
     "iss_no": 484,
