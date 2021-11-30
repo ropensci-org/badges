@@ -14,6 +14,13 @@
     "version": "0.0.0.9000"
   },
   {
+    "pkgname": "canaper",
+    "submitter": "joelnitta",
+    "iss_no": 475,
+    "status": "pending",
+    "version": "0.0.1"
+  },
+  {
     "pkgname": "qualR",
     "submitter": "quishqa",
     "iss_no": 474,
