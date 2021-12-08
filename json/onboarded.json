@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "gbifdb",
+    "submitter": "cboettig",
+    "iss_no": 492,
+    "status": "pending",
+    "version": "0.1.0"
+  },
+  {
     "pkgname": "gittargets",
     "submitter": "wlandau",
     "iss_no": 486,
