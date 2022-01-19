@@ -1,17 +1,17 @@
 [
   {
+    "pkgname": "frictionless",
+    "submitter": "peterdesmet",
+    "iss_no": 495,
+    "status": "pending",
+    "version": "0.9.0.9000"
+  },
+  {
     "pkgname": "gbifdb",
     "submitter": "cboettig",
     "iss_no": 492,
     "status": "pending",
     "version": "0.1.0"
-  },
-  {
-    "pkgname": "gittargets",
-    "submitter": "wlandau",
-    "iss_no": 486,
-    "status": "pending",
-    "version": "0.0.0.9000"
   },
   {
     "pkgname": "rfema",
@@ -264,6 +264,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "gittargets",
+    "submitter": "wlandau",
+    "iss_no": 486,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
   },
   {
     "pkgname": "cffr",
