@@ -21,13 +21,6 @@
     "version": "0.1.0"
   },
   {
-    "pkgname": "rfema",
-    "submitter": "dylan-turner25",
-    "iss_no": 484,
-    "status": "pending",
-    "version": "0.0.0.9000"
-  },
-  {
     "pkgname": "canaper",
     "submitter": "joelnitta",
     "iss_no": 475,
@@ -276,6 +269,13 @@
     "pkgname": "gittargets",
     "submitter": "wlandau",
     "iss_no": 486,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
+  },
+  {
+    "pkgname": "rfema",
+    "submitter": "dylan-turner25",
+    "iss_no": 484,
     "status": "reviewed",
     "version": "0.0.0.9000"
   },
