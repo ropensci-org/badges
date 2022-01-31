@@ -406,6 +406,13 @@
     "version": "0.0.8"
   },
   {
+    "pkgname": "tidytags",
+    "submitter": "bretsw",
+    "iss_no": 382,
+    "status": "pending",
+    "version": "0.1.0"
+  },
+  {
     "pkgname": "coder",
     "submitter": "eribul",
     "iss_no": 381,
