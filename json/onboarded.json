@@ -112,13 +112,6 @@
     "version": "1.7.0"
   },
   {
-    "pkgname": "tidytags",
-    "submitter": "bretsw",
-    "iss_no": 382,
-    "status": "pending",
-    "version": "0.1.0"
-  },
-  {
     "pkgname": "treedata.table",
     "submitter": "uyedaj",
     "iss_no": 367,
@@ -409,7 +402,7 @@
     "pkgname": "tidytags",
     "submitter": "bretsw",
     "iss_no": 382,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0"
   },
   {
