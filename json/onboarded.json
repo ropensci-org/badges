@@ -259,6 +259,13 @@
     "version": "0.4-7"
   },
   {
+    "pkgname": "frictionless",
+    "submitter": "peterdesmet",
+    "iss_no": 495,
+    "status": "pending",
+    "version": "0.9.0.9000"
+  },
+  {
     "pkgname": "gittargets",
     "submitter": "wlandau",
     "iss_no": 486,
