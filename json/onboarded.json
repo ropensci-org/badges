@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "octolog",
+    "submitter": "assignUser",
+    "iss_no": 502,
+    "status": "pending",
+    "version": "0.1.1.9000"
+  },
+  {
     "pkgname": "EDIutils",
     "submitter": "clnsmth",
     "iss_no": 498,
@@ -35,13 +42,6 @@
     "version": "0.0.1"
   },
   {
-    "pkgname": "qualR",
-    "submitter": "quishqa",
-    "iss_no": 474,
-    "status": "pending",
-    "version": "0.9.5"
-  },
-  {
     "pkgname": "OmicsMetaData",
     "submitter": "msweetlove",
     "iss_no": 471,
@@ -75,13 +75,6 @@
     "iss_no": 458,
     "status": "pending",
     "version": "0.1.0"
-  },
-  {
-    "pkgname": "gendercoder",
-    "submitter": "ekothe",
-    "iss_no": 435,
-    "status": "pending",
-    "version": "0.0.0.9000"
   },
   {
     "pkgname": "ROriginStamp",
@@ -287,6 +280,13 @@
     "version": "0.0.0.9000"
   },
   {
+    "pkgname": "qualR",
+    "submitter": "quishqa",
+    "iss_no": 474,
+    "status": "reviewed",
+    "version": "0.9.5"
+  },
+  {
     "pkgname": "cffr",
     "submitter": "dieghernan",
     "iss_no": 463,
@@ -311,6 +311,13 @@
     "pkgname": "allodb",
     "submitter": "gonzalezeb",
     "iss_no": 436,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
+  },
+  {
+    "pkgname": "gendercoder",
+    "submitter": "ekothe",
+    "iss_no": 435,
     "status": "reviewed",
     "version": "0.0.0.9000"
   },
