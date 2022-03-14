@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "npi",
+    "submitter": "frankfarach",
+    "iss_no": 505,
+    "status": "pending",
+    "version": "0.1.0"
+  },
+  {
     "pkgname": "octolog",
     "submitter": "assignUser",
     "iss_no": 502,
