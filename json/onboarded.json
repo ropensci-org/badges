@@ -28,13 +28,6 @@
     "version": "0.9.0.9000"
   },
   {
-    "pkgname": "gbifdb",
-    "submitter": "cboettig",
-    "iss_no": 492,
-    "status": "pending",
-    "version": "0.1.0"
-  },
-  {
     "pkgname": "ReLTER",
     "submitter": "oggioniale",
     "iss_no": 485,
@@ -264,6 +257,13 @@
     "iss_no": 495,
     "status": "pending",
     "version": "0.9.0.9000"
+  },
+  {
+    "pkgname": "gbifdb",
+    "submitter": "cboettig",
+    "iss_no": 492,
+    "status": "reviewed",
+    "version": "0.1.0"
   },
   {
     "pkgname": "gittargets",
