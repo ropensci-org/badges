@@ -14,13 +14,6 @@
     "version": "0.1.1.9000"
   },
   {
-    "pkgname": "EDIutils",
-    "submitter": "clnsmth",
-    "iss_no": 498,
-    "status": "pending",
-    "version": "0.0.0.9000"
-  },
-  {
     "pkgname": "frictionless",
     "submitter": "peterdesmet",
     "iss_no": 495,
@@ -250,6 +243,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "EDIutils",
+    "submitter": "clnsmth",
+    "iss_no": 498,
+    "status": "reviewed",
+    "version": "0.0.0.9000"
   },
   {
     "pkgname": "frictionless",
