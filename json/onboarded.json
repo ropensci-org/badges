@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "unifir",
+    "submitter": "mikemahoney218",
+    "iss_no": 521,
+    "status": "pending",
+    "version": "0.1.0"
+  },
+  {
     "pkgname": "npi",
     "submitter": "frankfarach",
     "iss_no": 505,
