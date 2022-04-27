@@ -21,13 +21,6 @@
     "version": "0.1.1.9000"
   },
   {
-    "pkgname": "ReLTER",
-    "submitter": "oggioniale",
-    "iss_no": 485,
-    "status": "pending",
-    "version": "1.0.0"
-  },
-  {
     "pkgname": "canaper",
     "submitter": "joelnitta",
     "iss_no": 475,
@@ -271,6 +264,13 @@
     "iss_no": 486,
     "status": "reviewed",
     "version": "0.0.0.9000"
+  },
+  {
+    "pkgname": "ReLTER",
+    "submitter": "oggioniale",
+    "iss_no": 485,
+    "status": "reviewed",
+    "version": "1.0.0"
   },
   {
     "pkgname": "rfema",
