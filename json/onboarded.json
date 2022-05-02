@@ -1,10 +1,10 @@
 [
   {
-    "pkgname": "unifir",
-    "submitter": "mikemahoney218",
-    "iss_no": 521,
+    "pkgname": "yfR",
+    "submitter": "msperlin",
+    "iss_no": 523,
     "status": "pending",
-    "version": "0.1.0"
+    "version": "0.0.1"
   },
   {
     "pkgname": "npi",
@@ -236,6 +236,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "unifir",
+    "submitter": "mikemahoney218",
+    "iss_no": 521,
+    "status": "reviewed",
+    "version": "0.1.0"
   },
   {
     "pkgname": "EDIutils",
