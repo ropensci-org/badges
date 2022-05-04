@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "datefixR",
+    "submitter": "nathansam",
+    "iss_no": 533,
+    "status": "pending",
+    "version": "0.1.4.9000"
+  },
+  {
     "pkgname": "yfR",
     "submitter": "msperlin",
     "iss_no": 523,
