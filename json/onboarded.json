@@ -28,6 +28,13 @@
     "version": "0.1.1.9000"
   },
   {
+    "pkgname": "bssm",
+    "submitter": "helske",
+    "iss_no": 489,
+    "status": "pending",
+    "version": "2.0.0"
+  },
+  {
     "pkgname": "canaper",
     "submitter": "joelnitta",
     "iss_no": 475,
