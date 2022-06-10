@@ -63,13 +63,6 @@
     "version": "0.0.1"
   },
   {
-    "pkgname": "tidyqpcr",
-    "submitter": "ewallace",
-    "iss_no": 470,
-    "status": "pending",
-    "version": "0.3"
-  },
-  {
     "pkgname": "tsbox",
     "submitter": "christophsax",
     "iss_no": 464,
@@ -320,6 +313,13 @@
     "iss_no": 474,
     "status": "reviewed",
     "version": "0.9.5"
+  },
+  {
+    "pkgname": "tidyqpcr",
+    "submitter": "ewallace",
+    "iss_no": 470,
+    "status": "reviewed",
+    "version": "0.3"
   },
   {
     "pkgname": "cffr",
