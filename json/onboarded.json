@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "spiro",
+    "submitter": "smnnlt",
+    "iss_no": 541,
+    "status": "pending",
+    "version": "0.0.5"
+  },
+  {
     "pkgname": "datefixR",
     "submitter": "nathansam",
     "iss_no": 533,
