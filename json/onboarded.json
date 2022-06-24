@@ -112,13 +112,6 @@
     "version": "0.1.0"
   },
   {
-    "pkgname": "readODS",
-    "submitter": "chainsawriot",
-    "iss_no": 386,
-    "status": "pending",
-    "version": "1.7.0"
-  },
-  {
     "pkgname": "treedata.table",
     "submitter": "uyedaj",
     "iss_no": 367,
@@ -467,6 +460,13 @@
     "iss_no": 395,
     "status": "reviewed",
     "version": "0.1.0"
+  },
+  {
+    "pkgname": "readODS",
+    "submitter": "chainsawriot",
+    "iss_no": 386,
+    "status": "reviewed",
+    "version": "1.7.0"
   },
   {
     "pkgname": "phonfieldwork",
