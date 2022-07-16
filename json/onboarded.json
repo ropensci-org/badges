@@ -7,13 +7,6 @@
     "version": "0.0.5"
   },
   {
-    "pkgname": "datefixR",
-    "submitter": "nathansam",
-    "iss_no": 533,
-    "status": "pending",
-    "version": "0.1.4.9000"
-  },
-  {
     "pkgname": "aorsf",
     "submitter": "bcjaeger",
     "iss_no": 532,
@@ -257,6 +250,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "datefixR",
+    "submitter": "nathansam",
+    "iss_no": 533,
+    "status": "reviewed",
+    "version": "0.1.4.9000"
   },
   {
     "pkgname": "yfR",
