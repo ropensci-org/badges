@@ -1,1 +1,1 @@
-# Badges of software peer-review
+# Badges for software peer-review
