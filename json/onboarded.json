@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "melt",
+    "submitter": "markean",
+    "iss_no": 550,
+    "status": "pending",
+    "version": "1.6.0.9000"
+  },
+  {
     "pkgname": "spiro",
     "submitter": "smnnlt",
     "iss_no": 541,
