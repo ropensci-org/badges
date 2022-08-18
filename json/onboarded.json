@@ -7,13 +7,6 @@
     "version": "1.6.0.9000"
   },
   {
-    "pkgname": "spiro",
-    "submitter": "smnnlt",
-    "iss_no": 541,
-    "status": "pending",
-    "version": "0.0.5"
-  },
-  {
     "pkgname": "daiquiri",
     "submitter": "phuongquan",
     "iss_no": 535,
@@ -264,6 +257,13 @@
     "iss_no": 15,
     "status": "pending",
     "version": "0.4-7"
+  },
+  {
+    "pkgname": "spiro",
+    "submitter": "smnnlt",
+    "iss_no": 541,
+    "status": "reviewed",
+    "version": "0.0.5"
   },
   {
     "pkgname": "datefixR",
