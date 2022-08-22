@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "<!--end-repourl-->",
+    "submitter": "antaldaniel",
+    "iss_no": 553,
+    "status": "pending",
+    "version": null
+  },
+  {
     "pkgname": "melt",
     "submitter": "markean",
     "iss_no": 550,
