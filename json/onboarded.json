@@ -1,5 +1,12 @@
 [
   {
+    "pkgname": "dynamite",
+    "submitter": "santikka",
+    "iss_no": 554,
+    "status": "pending",
+    "version": "0.0.1"
+  },
+  {
     "pkgname": "dataset",
     "submitter": "antaldaniel",
     "iss_no": 553,
