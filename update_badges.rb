@@ -3,7 +3,6 @@
 require 'fileutils'
 require 'octokit'
 require 'json'
-# require_relative 'test-data'
 
 # SET statistical software review colors and versions
 ## svg_map gets created below from these
