@@ -9,7 +9,7 @@ require 'json'
 ## svg_map gets created below from these
 ## doing it this way assumes you always have all versions for each color
 colors = ["gold", "silver", "bronze"]
-versions = ["0.0.1", "0.0.2", "0.0.3", "0.0.4", "0.0.5", "0.0.6", "0.0.7", "0.0.8", "0.0.9"]
+versions = ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9"]
 
 # clean out pkgsvgs dir
 FileUtils.rm_rf(Dir.glob("pkgsvgs/*"))
@@ -17,15 +17,7 @@ FileUtils.rm_rf(Dir.glob("pkgsvgs/*"))
 # get issues data
 con = Octokit::Client.new :access_token => ENV['GITHUB_PAT']
 con.auto_paginate = true # do automatic pagination
-sr_issues = con.issues('ropensci/software-review', state: "all");
-ssr_issues = con.issues("ropenscilabs/statistical-software-review", state: "all");
-
-# FIXME: remove this when real data is available - add fake labels
-# ssr_issues.each_with_index { |e, i| 
-#   e.labels << $stats_review_labels[i]
-# };
-
-issues = sr_issues + ssr_issues;
+issues = con.issues('ropensci/software-review', state: "all");
 
 # filter to labels with either review or seeking via grep
 iss_pending = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/review|seeking/).any? };
@@ -33,8 +25,7 @@ iss_pending = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/review|seekin
 ## ropensci review and stats review
 iss_peer_rev = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/approved/).any? };
 # make out of bounds value, different for regular and stats review
-sr_oob = sr_issues.map(&:number).max + 1
-ssr_oob = ssr_issues.map(&:number).max + 1
+sr_oob = issues.map(&:number).max + 1
 
 # make file names
 iss_pending_files = iss_pending.map { |e| "%s_status.svg" % e.number }
@@ -47,8 +38,7 @@ iss_peer_rev_files = iss_peer_rev.map { |e|
   [color, version, path]
 }
 
-iss_unknown_files = (sr_oob...(sr_oob + 50)).map { |e| "%s_status.svg" % e } +
-  (ssr_oob...(ssr_oob + 50)).map { |e| "%s_status_stats.svg" % e }
+iss_unknown_files = (sr_oob...(sr_oob + 50)).map { |e| "%s_status.svg" % e }
 
 # copy svg's for each submission
 svg_pending = "svgs/pending.svg"
