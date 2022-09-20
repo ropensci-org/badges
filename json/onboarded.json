@@ -21,7 +21,7 @@
     "iss_no": 550,
     "status": "pending",
     "version": "1.6.0.9000",
-    "stats_version": null
+    "stats_version": "0.1"
   },
   {
     "pkgname": "daiquiri",
@@ -302,6 +302,14 @@
     "status": "pending",
     "version": "0.4-7",
     "stats_version": null
+  },
+  {
+    "pkgname": "melt",
+    "submitter": "markean",
+    "iss_no": 550,
+    "status": "pending",
+    "version": "1.6.0.9000",
+    "stats_version": "0.1"
   },
   {
     "pkgname": "spiro",
