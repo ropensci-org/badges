@@ -37,7 +37,7 @@
     "iss_no": 532,
     "status": "pending",
     "version": "0.0.0.9000",
-    "stats_version": null
+    "stats_version": "0.1"
   },
   {
     "pkgname": "hudr",
@@ -326,6 +326,14 @@
     "status": "reviewed",
     "version": "0.1.4.9000",
     "stats_version": null
+  },
+  {
+    "pkgname": "aorsf",
+    "submitter": "bcjaeger",
+    "iss_no": 532,
+    "status": "pending",
+    "version": "0.0.0.9000",
+    "stats_version": "0.1"
   },
   {
     "pkgname": "yfR",
