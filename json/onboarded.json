@@ -32,6 +32,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "rb3",
+    "submitter": "msperlin",
+    "iss_no": 534,
+    "status": "pending",
+    "version": "0.0.3",
+    "stats_version": null
+  },
+  {
     "pkgname": "aorsf",
     "submitter": "bcjaeger",
     "iss_no": 532,
