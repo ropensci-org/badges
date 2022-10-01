@@ -56,6 +56,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "wmm",
+    "submitter": "wfrierson",
+    "iss_no": 522,
+    "status": "pending",
+    "version": "1.1.1",
+    "stats_version": null
+  },
+  {
     "pkgname": "npi",
     "submitter": "frankfarach",
     "iss_no": 505,
