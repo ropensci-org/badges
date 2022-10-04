@@ -32,27 +32,11 @@
     "stats_version": null
   },
   {
-    "pkgname": "aorsf",
-    "submitter": "bcjaeger",
-    "iss_no": 532,
-    "status": "pending",
-    "version": "0.0.0.9000",
-    "stats_version": "0.1"
-  },
-  {
     "pkgname": "hudr",
     "submitter": "etam4260",
     "iss_no": 524,
     "status": "pending",
     "version": "0.1.0.9000",
-    "stats_version": null
-  },
-  {
-    "pkgname": "yfR",
-    "submitter": "msperlin",
-    "iss_no": 523,
-    "status": "pending",
-    "version": "0.0.1",
     "stats_version": null
   },
   {
@@ -104,14 +88,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "cffr",
-    "submitter": "dieghernan",
-    "iss_no": 463,
-    "status": "pending",
-    "version": "0.0.1.9001",
-    "stats_version": null
-  },
-  {
     "pkgname": "phruta",
     "submitter": "cromanpa94",
     "iss_no": 458,
@@ -125,30 +101,6 @@
     "iss_no": 433,
     "status": "pending",
     "version": "0.8.0",
-    "stats_version": null
-  },
-  {
-    "pkgname": "dataspice",
-    "submitter": "amoeba",
-    "iss_no": 426,
-    "status": "pending",
-    "version": "1.0.0",
-    "stats_version": null
-  },
-  {
-    "pkgname": "epair",
-    "submitter": "GLOrozcoM",
-    "iss_no": 418,
-    "status": "pending",
-    "version": "0.1.0",
-    "stats_version": null
-  },
-  {
-    "pkgname": "treedata.table",
-    "submitter": "uyedaj",
-    "iss_no": 367,
-    "status": "pending",
-    "version": "0.1.0",
     "stats_version": null
   },
   {
@@ -168,51 +120,11 @@
     "stats_version": null
   },
   {
-    "pkgname": "gitignore",
-    "submitter": "PMassicotte",
-    "iss_no": 303,
-    "status": "pending",
-    "version": "0.1.0.9000",
-    "stats_version": null
-  },
-  {
-    "pkgname": "rnassqs",
-    "submitter": "potterzot",
-    "iss_no": 298,
-    "status": "pending",
-    "version": "0.4.0.9000",
-    "stats_version": null
-  },
-  {
-    "pkgname": "citesdb",
-    "submitter": "noamross",
-    "iss_no": 292,
-    "status": "pending",
-    "version": "0.1.0",
-    "stats_version": null
-  },
-  {
     "pkgname": "CytoRSuite",
     "submitter": "DillonHammill",
     "iss_no": 281,
     "status": "pending",
     "version": "0.9.9",
-    "stats_version": null
-  },
-  {
-    "pkgname": "ramlegacy",
-    "submitter": "kshtzgupta1",
-    "iss_no": 264,
-    "status": "pending",
-    "version": "0.1.0",
-    "stats_version": null
-  },
-  {
-    "pkgname": "popler",
-    "submitter": "AldoCompagnoni",
-    "iss_no": 254,
-    "status": "pending",
-    "version": "0.0.0.9001",
     "stats_version": null
   },
   {
@@ -296,14 +208,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "riem",
-    "submitter": "maelle",
-    "iss_no": 39,
-    "status": "pending",
-    "version": "0.1.0",
-    "stats_version": null
-  },
-  {
     "pkgname": "rsdmx",
     "submitter": "eblondel",
     "iss_no": 15,
@@ -339,7 +243,7 @@
     "pkgname": "aorsf",
     "submitter": "bcjaeger",
     "iss_no": 532,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.0.0.9000",
     "stats_version": "0.1"
   },
@@ -347,7 +251,7 @@
     "pkgname": "yfR",
     "submitter": "msperlin",
     "iss_no": 523,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.0.1",
     "stats_version": null
   },
@@ -435,7 +339,7 @@
     "pkgname": "cffr",
     "submitter": "dieghernan",
     "iss_no": 463,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.0.1.9001",
     "stats_version": null
   },
@@ -507,7 +411,7 @@
     "pkgname": "dataspice",
     "submitter": "amoeba",
     "iss_no": 426,
-    "status": "pending",
+    "status": "reviewed",
     "version": "1.0.0",
     "stats_version": null
   },
@@ -531,7 +435,7 @@
     "pkgname": "epair",
     "submitter": "GLOrozcoM",
     "iss_no": 418,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0",
     "stats_version": null
   },
@@ -643,7 +547,7 @@
     "pkgname": "treedata.table",
     "submitter": "uyedaj",
     "iss_no": 367,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0",
     "stats_version": null
   },
@@ -819,7 +723,7 @@
     "pkgname": "gitignore",
     "submitter": "PMassicotte",
     "iss_no": 303,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0.9000",
     "stats_version": null
   },
@@ -835,7 +739,7 @@
     "pkgname": "rnassqs",
     "submitter": "potterzot",
     "iss_no": 298,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.4.0.9000",
     "stats_version": null
   },
@@ -851,7 +755,7 @@
     "pkgname": "citesdb",
     "submitter": "noamross",
     "iss_no": 292,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0",
     "stats_version": null
   },
@@ -963,7 +867,7 @@
     "pkgname": "ramlegacy",
     "submitter": "kshtzgupta1",
     "iss_no": 264,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0",
     "stats_version": null
   },
@@ -1019,7 +923,7 @@
     "pkgname": "popler",
     "submitter": "AldoCompagnoni",
     "iss_no": 254,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.0.0.9001",
     "stats_version": null
   },
@@ -1755,7 +1659,7 @@
     "pkgname": "riem",
     "submitter": "maelle",
     "iss_no": 39,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0",
     "stats_version": null
   },
