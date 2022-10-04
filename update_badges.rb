@@ -18,8 +18,9 @@ con = Octokit::Client.new :access_token => ENV['GITHUB_PAT']
 con.auto_paginate = true # do automatic pagination
 issues = con.issues('ropensci/software-review', state: "all");
 
-# filter to labels with either review or seeking via grep
-iss_pending = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/review|seeking/).any? };
+# filter to labels with either review or seeking via grep, but only on
+# "official" labels starting with "[0-9]/<label>" (see #9)
+iss_pending = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/^[0-9]\/.*(review|seeking)/).any? };
 # filter to labels with approved via grep
 ## ropensci review and stats review
 iss_peer_rev = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/approved/).any? };
