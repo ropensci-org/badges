@@ -24,14 +24,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "daiquiri",
-    "submitter": "phuongquan",
-    "iss_no": 535,
-    "status": "pending",
-    "version": "0.7.1",
-    "stats_version": null
-  },
-  {
     "pkgname": "rb3",
     "submitter": "msperlin",
     "iss_no": 534,
@@ -237,6 +229,14 @@
     "iss_no": 541,
     "status": "reviewed",
     "version": "0.0.5",
+    "stats_version": null
+  },
+  {
+    "pkgname": "daiquiri",
+    "submitter": "phuongquan",
+    "iss_no": 535,
+    "status": "reviewed",
+    "version": "0.7.1",
     "stats_version": null
   },
   {
