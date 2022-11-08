@@ -48,14 +48,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "npi",
-    "submitter": "frankfarach",
-    "iss_no": 505,
-    "status": "pending",
-    "version": "0.1.0",
-    "stats_version": null
-  },
-  {
     "pkgname": "octolog",
     "submitter": "assignUser",
     "iss_no": 502,
@@ -267,6 +259,14 @@
     "pkgname": "unifir",
     "submitter": "mikemahoney218",
     "iss_no": 521,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "npi",
+    "submitter": "frankfarach",
+    "iss_no": 505,
     "status": "reviewed",
     "version": "0.1.0",
     "stats_version": null
