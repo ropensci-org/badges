@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "dfms",
+    "submitter": "SebKrantz",
+    "iss_no": 556,
+    "status": "pending",
+    "version": "0.1.2",
+    "stats_version": null
+  },
+  {
     "pkgname": "dynamite",
     "submitter": "santikka",
     "iss_no": 554,
