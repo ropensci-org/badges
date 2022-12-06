@@ -341,7 +341,7 @@
     "iss_no": 475,
     "status": "reviewed",
     "version": "0.0.1",
-    "stats_version": "0.1"
+    "stats_version": null
   },
   {
     "pkgname": "qualR",
