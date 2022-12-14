@@ -16,14 +16,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "dynamite",
-    "submitter": "santikka",
-    "iss_no": 554,
-    "status": "pending",
-    "version": "0.0.1",
-    "stats_version": null
-  },
-  {
     "pkgname": "dataset",
     "submitter": "antaldaniel",
     "iss_no": 553,
@@ -222,6 +214,14 @@
     "status": "pending",
     "version": "0.4-7",
     "stats_version": null
+  },
+  {
+    "pkgname": "dynamite",
+    "submitter": "santikka",
+    "iss_no": 554,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": "0.2"
   },
   {
     "pkgname": "melt",
