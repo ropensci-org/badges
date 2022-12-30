@@ -88,14 +88,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "phruta",
-    "submitter": "cromanpa94",
-    "iss_no": 458,
-    "status": "pending",
-    "version": "0.1.0",
-    "stats_version": null
-  },
-  {
     "pkgname": "ROriginStamp",
     "submitter": "rkrug",
     "iss_no": 433,
@@ -365,6 +357,14 @@
     "iss_no": 463,
     "status": "reviewed",
     "version": "0.0.1.9001",
+    "stats_version": null
+  },
+  {
+    "pkgname": "phruta",
+    "submitter": "cromanpa94",
+    "iss_no": 458,
+    "status": "reviewed",
+    "version": "0.1.0",
     "stats_version": null
   },
   {
