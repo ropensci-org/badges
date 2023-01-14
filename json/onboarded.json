@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "waywiser",
+    "submitter": "mikemahoney218",
+    "iss_no": 571,
+    "status": "pending",
+    "version": "0.2.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "openalexR",
     "submitter": "trangdata",
     "iss_no": 560,
