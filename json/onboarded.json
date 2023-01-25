@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "ohun",
+    "submitter": "maRce10",
+    "iss_no": 568,
+    "status": "pending",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "openalexR",
     "submitter": "trangdata",
     "iss_no": 560,
