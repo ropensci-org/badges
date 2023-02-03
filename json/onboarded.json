@@ -24,6 +24,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "concstats",
+    "submitter": "schneiderpy",
+    "iss_no": 559,
+    "status": "pending",
+    "version": "0.1.4",
+    "stats_version": null
+  },
+  {
     "pkgname": "dfms",
     "submitter": "SebKrantz",
     "iss_no": 556,
