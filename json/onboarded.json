@@ -56,14 +56,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "rb3",
-    "submitter": "msperlin",
-    "iss_no": 534,
-    "status": "pending",
-    "version": "0.0.3",
-    "stats_version": null
-  },
-  {
     "pkgname": "hudr",
     "submitter": "etam4260",
     "iss_no": 524,
@@ -269,6 +261,14 @@
     "iss_no": 535,
     "status": "reviewed",
     "version": "0.7.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rb3",
+    "submitter": "msperlin",
+    "iss_no": 534,
+    "status": "reviewed",
+    "version": "0.0.3",
     "stats_version": null
   },
   {
