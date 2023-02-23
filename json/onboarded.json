@@ -224,6 +224,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "openalexR",
+    "submitter": "trangdata",
+    "iss_no": 560,
+    "status": "pending",
+    "version": "1.0.2",
+    "stats_version": null
+  },
+  {
     "pkgname": "dynamite",
     "submitter": "santikka",
     "iss_no": 554,
