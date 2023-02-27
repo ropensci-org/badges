@@ -5,7 +5,7 @@
     "iss_no": 571,
     "status": "pending",
     "version": "0.2.0.9000",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "ohun",
@@ -222,6 +222,14 @@
     "status": "pending",
     "version": "0.4-7",
     "stats_version": null
+  },
+  {
+    "pkgname": "waywiser",
+    "submitter": "mikemahoney218",
+    "iss_no": 571,
+    "status": "pending",
+    "version": "0.2.0.9000",
+    "stats_version": "0.2"
   },
   {
     "pkgname": "openalexR",
