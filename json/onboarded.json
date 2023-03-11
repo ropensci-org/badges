@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "credit",
+    "submitter": "jospueyo",
+    "iss_no": 576,
+    "status": "pending",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "dwctaxon",
     "submitter": "joelnitta",
     "iss_no": 574,
