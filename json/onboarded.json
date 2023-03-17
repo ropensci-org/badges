@@ -61,7 +61,7 @@
     "iss_no": 559,
     "status": "pending",
     "version": "0.1.4",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "dfms",
@@ -262,6 +262,14 @@
     "status": "pending",
     "version": "1.0.2",
     "stats_version": null
+  },
+  {
+    "pkgname": "concstats",
+    "submitter": "schneiderpy",
+    "iss_no": 559,
+    "status": "pending",
+    "version": "0.1.4",
+    "stats_version": "0.2"
   },
   {
     "pkgname": "dynamite",
