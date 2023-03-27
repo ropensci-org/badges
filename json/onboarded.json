@@ -80,6 +80,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "master<!--end-repourl-->",
+    "submitter": "s3alfisc",
+    "iss_no": 546,
+    "status": "pending",
+    "version": null,
+    "stats_version": null
+  },
+  {
     "pkgname": "hudr",
     "submitter": "etam4260",
     "iss_no": 524,
