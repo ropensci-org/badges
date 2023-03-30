@@ -40,14 +40,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "predictNMB",
-    "submitter": "RWParsons",
-    "iss_no": 566,
-    "status": "pending",
-    "version": "0.0.1",
-    "stats_version": null
-  },
-  {
     "pkgname": "openalexR",
     "submitter": "trangdata",
     "iss_no": 560,
@@ -261,6 +253,14 @@
     "iss_no": 571,
     "status": "pending",
     "version": "0.2.0.9000",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "predictNMB",
+    "submitter": "RWParsons",
+    "iss_no": 566,
+    "status": "reviewed",
+    "version": "0.0.1",
     "stats_version": "0.2"
   },
   {
