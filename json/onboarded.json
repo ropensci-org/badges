@@ -16,6 +16,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "pangoling",
+    "submitter": "bnicenboim",
+    "iss_no": 575,
+    "status": "pending",
+    "version": "0.0.0.9005",
+    "stats_version": null
+  },
+  {
     "pkgname": "dwctaxon",
     "submitter": "joelnitta",
     "iss_no": 574,
