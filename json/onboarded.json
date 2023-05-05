@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "mregions2",
+    "submitter": "salvafern",
+    "iss_no": 590,
+    "status": "pending",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "birdsize",
     "submitter": "diazrenata",
     "iss_no": 577,
