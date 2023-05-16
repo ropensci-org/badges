@@ -88,11 +88,11 @@
     "stats_version": null
   },
   {
-    "pkgname": "master<!--end-repourl-->",
+    "pkgname": "fwildclusterboot",
     "submitter": "s3alfisc",
     "iss_no": 546,
     "status": "pending",
-    "version": null,
+    "version": "0.13.2",
     "stats_version": null
   },
   {
@@ -445,7 +445,7 @@
     "iss_no": 475,
     "status": "reviewed",
     "version": "0.0.1",
-    "stats_version": null
+    "stats_version": "0.1"
   },
   {
     "pkgname": "qualR",
