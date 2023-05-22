@@ -32,14 +32,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "dwctaxon",
-    "submitter": "joelnitta",
-    "iss_no": 574,
-    "status": "pending",
-    "version": "1.0.0.9000",
-    "stats_version": null
-  },
-  {
     "pkgname": "waywiser",
     "submitter": "mikemahoney218",
     "iss_no": 571,
@@ -269,6 +261,14 @@
     "iss_no": 576,
     "status": "pending",
     "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "dwctaxon",
+    "submitter": "joelnitta",
+    "iss_no": 574,
+    "status": "reviewed",
+    "version": "1.0.0.9000",
     "stats_version": null
   },
   {
