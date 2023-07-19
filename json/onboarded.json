@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "rangr",
+    "submitter": "katarzynam-165",
+    "iss_no": 595,
+    "status": "pending",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "mregions2",
     "submitter": "salvafern",
     "iss_no": 590,
