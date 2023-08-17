@@ -44,7 +44,7 @@ iss_unknown_files = (sr_oob...(sr_oob + 50)).map { |e| "%s_status.svg" % e }
 svg_pending = "svgs/pending.svg"
 iss_pending_files.map { |e| FileUtils.cp(svg_pending, 'pkgsvgs/' + e) }
 
-# FIXME: gold/silver/bronze need to be replaced w/ actual svg's
+# Map gold/silver/bronze and stats versions:
 svg_map = colors.product(versions).map { |w| "svgs/" + w.join("-v") + ".svg"}.
   append("svgs/peer-reviewed.svg")
 
