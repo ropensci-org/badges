@@ -30,9 +30,19 @@ sr_oob = issues.map(&:number).max + 1
 # make file names
 iss_pending_files = iss_pending.map { |e| "%s_status.svg" % e.number }
 
+# 'iss_peer_rev' then holds all main labels for each approved issue. Current
+# labels are:
+# - 6/approved
+# - 6/approved-bronze-v0.1
+# - 6/approved-bronze-v0.2
+# - 6/approved-silver-v0.1
+# - 6/approved-silver-v0.2
+# - 6/approved-gold-v0.1
+# - 6/approved-gold-v0.2
+# # This map converts those to paths to svgs in 'pkgsvgs' directory, with format
+# "XY_stats.svg"
 iss_peer_rev_files = iss_peer_rev.map { |e|
-  suffix = !!e.url.match(/statistical/) ? "status_stats" : "status"
-  path = "%s_%s.svg" % [e.number, suffix]
+  path = "%s_status.svg" % [e.number]
   color = colors.select { |str| e.labels.map{|w| w[:name]}.map { |z| z.include? str }.any? }.first
   version = versions.select { |str| e.labels.map{|w| w[:name]}.map { |z| z.include? str }.any? }.first
   [color, version, path]
@@ -44,21 +54,21 @@ iss_unknown_files = (sr_oob...(sr_oob + 50)).map { |e| "%s_status.svg" % e }
 svg_pending = "svgs/pending.svg"
 iss_pending_files.map { |e| FileUtils.cp(svg_pending, 'pkgsvgs/' + e) }
 
-# Map gold/silver/bronze and stats versions:
+# Construct temp paths for all gold/silver/bronze and stats versions:
 svg_map = colors.product(versions).map { |w| "svgs/" + w.join("-v") + ".svg"}.
   append("svgs/peer-reviewed.svg")
 
 iss_peer_rev_files.map { |e|
-  # each element e is an array of length two w/ .first and .last (or [0] and [1])
-  target_svg = if e.first.nil?
+  # each element e is an array of length three (color, version, path)
+  target_svg = if e.first.nil? # no color, so not a stats pkg
     "svgs/peer-reviewed.svg"
   else
+    # construct stats badge name as '<color>-<vesion>.svg':
     svg_map.map {|x| x.match(e.first)}.compact.map {|w| w.string.match(e[1])}.compact.first.string
   end
   # don't write a file if target_svg is nil
   unless target_svg.nil?
     FileUtils.cp(target_svg, "pkgsvgs/" + e.last)
-    # puts target_svg
   end
 }
 
