@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "eph",
+    "submitter": "caropradier",
+    "iss_no": 593,
+    "status": "pending",
+    "version": "0.6.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "mregions2",
     "submitter": "salvafern",
     "iss_no": 590,
