@@ -24,7 +24,7 @@ iss_pending = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/^[0-9]\/.*(re
 # filter to labels with approved via grep
 ## ropensci review and stats review
 iss_peer_rev = issues.select { |z| z.labels.map{|w| w[:name]}.grep(/approved/).any? };
-# make out of bounds value, different for regular and stats review
+# make out of bounds value:
 sr_oob = issues.map(&:number).max + 1
 
 # make file names
@@ -50,7 +50,8 @@ iss_peer_rev_files = iss_peer_rev.map { |e|
 
 iss_unknown_files = (sr_oob...(sr_oob + 50)).map { |e| "%s_status.svg" % e }
 
-# copy svg's for each submission
+# copy svg's for each submission, starting by labelling all as default
+# "pending":
 svg_pending = "svgs/pending.svg"
 iss_pending_files.map { |e| FileUtils.cp(svg_pending, 'pkgsvgs/' + e) }
 
@@ -58,9 +59,12 @@ iss_pending_files.map { |e| FileUtils.cp(svg_pending, 'pkgsvgs/' + e) }
 svg_map = colors.product(versions).map { |w| "svgs/" + w.join("-v") + ".svg"}.
   append("svgs/peer-reviewed.svg")
 
+# fill all "peer_rev_files" with matching svg paths:
 iss_peer_rev_files.map { |e|
   # each element e is an array of length three (color, version, path)
-  target_svg = if e.first.nil? # no color, so not a stats pkg
+  # Elememts with no "color" are not stats packages, so get default
+  # "peer-reviewed" badge:
+  target_svg = if e.first.nil?
     "svgs/peer-reviewed.svg"
   else
     # construct stats badge name as '<color>-<vesion>.svg':
