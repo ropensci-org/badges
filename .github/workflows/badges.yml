@@ -8,27 +8,31 @@ on:
     - cron: "0 */6 * * *"
 
 jobs:
+
   build:
+
     runs-on: ubuntu-latest
+
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
     
-    - uses: actions/checkout@v2
-    
-    - name: Setup ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.7.2
-    - run: bundle install
-    
-    - name: Make svgs
-      run: ruby update_badges.rb
+      - uses: actions/checkout@v2
 
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
-      with:
-        branch: gh-pages
-        folder: pkgsvgs
-        git-config-name: ropenscibot
-        git-config-email: accounts+ropenscibot@ropensci.org
+      - name: Setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.2
+      - run: bundle install
+
+      - name: Make svgs
+        run: ruby update_badges.rb
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: pkgsvgs
+          git-config-name: ropenscibot
+          git-config-email: accounts+ropenscibot@ropensci.org
