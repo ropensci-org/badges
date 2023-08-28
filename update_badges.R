@@ -3,7 +3,7 @@
 # clean out pkgsvgs dir
 flist <- list.files ("pkgsvgs", full.names = TRUE, pattern = "\\.svg$")
 if (length (flist) > 0L) {
-    file.remove (flist)
+    chk <- file.remove (flist)
 }
 
 library (jsonlite)
@@ -230,6 +230,7 @@ json_data <- data.frame (
     version = pkg_data [, 2],
     stats_version = json_input$stats_version
 )
+# Put most recent at top of file:
 json_data <- json_data [order (json_data$iss_no, decreasing = TRUE), ]
 
 jdir <- file.path ("pkgsvgs", "json")
