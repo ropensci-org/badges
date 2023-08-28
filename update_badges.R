@@ -197,7 +197,7 @@ json_input <- data.frame (
     stats_grade = stats_grade [, 1],
     stats_version = stats_grade [, 2]
 )
-json_input$status [which (!is.na (json_input$stats_grade))] <- "peer-reviewed"
+json_input$status [which (!is.na (json_input$stats_grade))] <- "reviewed"
 
 # Then get additional info from issue bodies:
 pkg_data <- lapply (body, function (i) {
@@ -205,8 +205,7 @@ pkg_data <- lapply (body, function (i) {
 
     regex_ptns <- rbind (
         c ("^Package\\:", "^Package:(\\s?)|\\r$|https\\:\\/\\/github\\.com\\/.*\\/.*"),
-        c ("^[Vv]ersion\\:", "^[Vv]ersion\\:(\\s)|\\r|"),
-        c ("^[Aa]uthor\\:", "^[Aa]uthor\\:(\\s?)|\\r$|")
+        c ("^[Vv]ersion\\:", "^[Vv]ersion\\:(\\s)|\\r|")
     )
     regex_data <- apply (regex_ptns, 1, function (j) {
         dat <- grep (j [1], issue_body, value = TRUE) [1]
@@ -218,20 +217,20 @@ pkg_data <- lapply (body, function (i) {
 
     c (
         pkg = regex_data [1],
-        version = regex_data [2],
-        user = regex_data [3]
+        version = regex_data [2]
     )
 })
 pkg_data <- do.call (rbind, pkg_data)
 
 json_data <- data.frame (
     pkgname = pkg_data [, 1],
-    submitted = pkg_data [, 3],
+    submitted = json_input$author,
     iss_no = json_input$number,
     status = json_input$status,
     version = pkg_data [, 2],
     stats_version = json_input$stats_version
 )
+json_data <- json_data [order (json_data$iss_no, decreasing = TRUE), ]
 
 jdir <- file.path ("pkgsvgs", "json")
 if (!dir.exists (jdir)) {
