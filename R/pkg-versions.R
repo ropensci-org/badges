@@ -214,10 +214,9 @@ pkg_versions <- lapply (seq_along (number), function (i) {
     ld <- do.call (rbind, label_data [[i]])
     label_indices <- regmatches (ld [, 1], gregexpr ("^[0-9]\\/", ld [, 1]))
     index <- which (vapply (label_indices, length, integer (1L)) == 0L)
-    if (length (index) == 0L) {
-        next
+    if (length (index) > 0L) {
+        label_indices [index] <- NA_character_
     }
-    label_indices [index] <- NA_character_
     label_indices <- as.integer (gsub ("\\/$", "", label_indices))
 
     # Get commit history of that repo:
