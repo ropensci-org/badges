@@ -181,9 +181,18 @@ get_desc_version <- function (pkg, commit_data, t0, org = "ropensci") {
         return (ret)
     }
 
-    d <- read.dcf (f)
+    d <- tryCatch (
+        read.dcf (f),
+        error = function (e) NULL
+    )
+    if (!is.null (d)) {
+        v <- d [1, grep ("[Vv]ersion", colnames (d))]
+    } else {
+        d <- readLines (f)
+        ptn <- "^[Vv]ersion\\:(\\s?)"
+        v <- gsub (ptn, "", grep (ptn, d, value = TRUE))
+    }
     chk <- file.remove (f)
-    v <- d [1, grep ("[Vv]ersion", colnames (d))]
     return (unname (v))
 }
 
