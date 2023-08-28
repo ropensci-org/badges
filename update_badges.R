@@ -9,14 +9,6 @@ if (length (flist) > 0L) {
 library (jsonlite)
 library (gh)
 
-get_gh_token <- function (token = "") {
-
-    tryCatch (
-        gitcreds::gitcreds_get ()$password,
-        error = function (e) ""
-    )
-}
-
 get_issues_qry <- function (org = "ropensci",
                             repo = "software-review",
                             end_cursor = NULL) {
