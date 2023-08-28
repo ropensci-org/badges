@@ -234,7 +234,7 @@ pkg_versions <- lapply (seq_along (number), function (i) {
     while (has_next_page) {
 
         q <- get_commits_qry (
-            org = "ropensci",
+            org = org,
             repo = pkg,
             end_cursor = end_cursor
         )
