@@ -53,7 +53,7 @@ get_issues_qry <- function (org = "ropensci",
 has_next_page <- TRUE
 end_cursor <- NULL
 
-number <- createdAt <- body <- NULL
+number <- created_at <- body <- NULL
 label_data <- list ()
 
 while (has_next_page) {
@@ -74,8 +74,8 @@ while (has_next_page) {
         number,
         vapply (edges, function (i) i$node$number, integer (1L))
     )
-    createdAt <- c (
-        createdAt,
+    created_at <- c ( # nolint
+        created_at,
         vapply (edges, function (i) i$node$createdAt, character (1L))
     )
     body <- c (
@@ -97,7 +97,10 @@ while (has_next_page) {
 #
 # Then get 'onboarded.json' and reduce issues down to only onboarded packages:
 
-u <- "https://raw.githubusercontent.com/ropensci-org/badges/gh-pages/json/onboarded.json"
+u <- paste0 (
+    "https://raw.githubusercontent.com/ropensci-org/badges/",
+    "gh-pages/json/onboarded.json"
+)
 f <- tempfile (fileext = ".json")
 download.file (u, f, quiet = TRUE)
 
@@ -106,7 +109,7 @@ i <- which (dat$status == "reviewed")
 index <- which (number %in% dat$iss_no [i])
 
 number <- number [index]
-createdAt <- createdAt [index]
+created_at <- created_at [index]
 label_data <- label_data [index]
 body <- body [index]
 
@@ -165,7 +168,10 @@ get_desc_version <- function (pkg, commit_data, t0, org = "ropensci") {
 
     t0 <- lubridate::ymd_hms (t0)
     oid <- commit_data$oid [max (which (commit_data$date <= t0))]
-    url_base <- paste0 ("https://raw.githubusercontent.com/", org, "/", pkg, "/")
+    url_base <- paste0 (
+        "https://raw.githubusercontent.com/",
+        org, "/", pkg, "/"
+    )
     u <- paste0 (url_base, oid, "/", "DESCRIPTION")
     f <- tempfile (pattern = "DESCRIPTION")
     chk <- tryCatch (
@@ -226,10 +232,11 @@ pkg_versions <- lapply (seq_along (number), function (i) {
     commit_data <- list ()
 
     org <- "ropensci"
-    valid_url <- function (org, pkg, t = 2){
+    valid_url <- function (org, pkg, t = 2) {
         con <- url (paste0 ("https://github.com/", org, "/", pkg))
-        check <- suppressWarnings (try (open.connection (con, open = "rt", timeout = t), silent = T) [1])
-        suppressWarnings (try (close.connection (con), silent = T))
+        check <- suppressWarnings (try (
+            open.connection (con, open = "rt", timeout = t), silent = TRUE) [1])
+        suppressWarnings (try (close.connection (con), silent = TRUE))
         ifelse (is.null (check), TRUE, FALSE)
     }
     if (!valid_url (org, pkg)) {
@@ -248,8 +255,9 @@ pkg_versions <- lapply (seq_along (number), function (i) {
         )
         dat <- gh::gh_gql (query = q)
 
-        has_next_page <- dat$data$repository$defaultBranchRef$target$history$pageInfo$hasNextPage
-        end_cursor <- dat$data$repository$defaultBranchRef$target$history$pageInfo$endCursor
+        history <- dat$data$repository$defaultBranchRef$target$history
+        has_next_page <- history$pageInfo$hasNextPage
+        end_cursor <- history$pageInfo$endCursor
 
         edges <- dat$data$repository$defaultBranchRef$target$history$edges
 
@@ -276,3 +284,5 @@ pkg_versions <- lapply (seq_along (number), function (i) {
 
     c (stated = v, start = v0, end = v1)
 })
+
+pkg_versions <- data.frame (do.call (rbind, pkg_versions))
