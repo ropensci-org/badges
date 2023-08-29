@@ -167,7 +167,8 @@ get_desc_version <- function (pkg, commit_data, t0, org = "ropensci") {
     ret <- NA_character_
 
     t0 <- lubridate::ymd_hms (t0)
-    oid <- commit_data$oid [max (which (commit_data$date <= t0))]
+    # commit_data are newest-to-oldest, so next line has to be "min"!
+    oid <- commit_data$oid [min (which (commit_data$date <= t0))]
     url_base <- paste0 (
         "https://raw.githubusercontent.com/",
         org, "/", pkg, "/"
