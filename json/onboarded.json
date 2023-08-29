@@ -1112,11 +1112,11 @@
     "stats_version": null
   },
   {
-    "pkgname": null,
+    "pkgname": "infx",
     "submitted": "nbenn",
     "iss_no": 218,
     "status": "reviewed",
-    "version": null,
+    "version": "0.1.0",
     "stats_version": null
   },
   {
@@ -1288,7 +1288,7 @@
     "stats_version": null
   },
   {
-    "pkgname": null,
+    "pkgname": "skimr",
     "submitted": "elinw",
     "iss_no": 175,
     "status": "reviewed",
@@ -1448,7 +1448,7 @@
     "stats_version": null
   },
   {
-    "pkgname": null,
+    "pkgname": "googleLanguageR",
     "submitted": "MarkEdmondson1234",
     "iss_no": 127,
     "status": "reviewed",
@@ -1880,7 +1880,7 @@
     "stats_version": null
   },
   {
-    "pkgname": null,
+    "pkgname": "Ropenaq",
     "submitted": "maelle",
     "iss_no": 24,
     "status": "reviewed",
