@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "agromet",
+    "submitted": "paocorrales",
+    "iss_no": 599,
+    "status": "unknown",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "weatherOz",
     "submitted": "bozaah",
     "iss_no": 598,
