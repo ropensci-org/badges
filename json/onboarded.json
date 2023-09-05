@@ -1,5 +1,21 @@
 [
   {
+    "pkgname": "fastMatMR",
+    "submitted": "HaoZeke",
+    "iss_no": 606,
+    "status": "unknown",
+    "version": "1.0.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "GLMMcosinor",
+    "submitted": "RWParsons",
+    "iss_no": 603,
+    "status": "unknown",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "naijR",
     "submitted": "BroVic",
     "iss_no": 600,
