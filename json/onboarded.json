@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "rgeeExtra",
+    "submitted": "csaybar",
+    "iss_no": 608,
+    "status": "unknown",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
     "pkgname": "fastMatMR",
     "submitted": "HaoZeke",
     "iss_no": 606,
