@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "baRulho",
+    "submitted": "maRce10",
+    "iss_no": 609,
+    "status": "unknown",
+    "version": "2.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "rgeeExtra",
     "submitted": "csaybar",
     "iss_no": 608,
