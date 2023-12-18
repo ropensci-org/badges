@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "quadkeyr",
+    "submitted": "flor14",
+    "iss_no": 619,
+    "status": "unknown",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "fellingdateR",
     "submitted": "hanecakr",
     "iss_no": 618,
