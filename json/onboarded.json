@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "karel",
+    "submitted": "mpru",
+    "iss_no": 620,
+    "status": "unknown",
+    "version": "0.1.1.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "quadkeyr",
     "submitted": "flor14",
     "iss_no": 619,
