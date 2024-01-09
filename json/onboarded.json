@@ -27,7 +27,7 @@
     "pkgname": "comtradr",
     "submitted": "datapumpernickel",
     "iss_no": 613,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.4.0.0",
     "stats_version": null
   },
@@ -67,9 +67,9 @@
     "pkgname": "GLMMcosinor",
     "submitted": "RWParsons",
     "iss_no": 603,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "naijR",
