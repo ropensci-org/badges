@@ -99,9 +99,9 @@
     "pkgname": "rangr",
     "submitted": "katarzynam-165",
     "iss_no": 595,
-    "status": "pending",
+    "status": "reviewed",
     "version": "1.0.0",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "eph",
