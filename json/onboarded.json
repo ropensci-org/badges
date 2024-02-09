@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "rix",
+    "submitted": "b-rodrigues",
+    "iss_no": 625,
+    "status": "unknown",
+    "version": "0.6.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "nuts",
     "submitted": "AAoritz",
     "iss_no": 623,
@@ -99,7 +107,7 @@
     "pkgname": "weatherOz",
     "submitted": "bozaah",
     "iss_no": 598,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.0.1",
     "stats_version": null
   },
