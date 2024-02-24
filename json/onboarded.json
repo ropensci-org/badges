@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "gigs",
+    "submitted": "simpar1471",
+    "iss_no": 626,
+    "status": "unknown",
+    "version": "0.4.1",
+    "stats_version": null
+  },
+  {
     "pkgname": "rix",
     "submitted": "b-rodrigues",
     "iss_no": 625,
