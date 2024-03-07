@@ -1,5 +1,1581 @@
 [
   {
+    "pkgname": "dendroNetwork",
+    "submitted": "RonaldVisser",
+    "iss_no": 627,
+    "status": "unknown",
+    "version": "0.5.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "gigs",
+    "submitted": "simpar1471",
+    "iss_no": 626,
+    "status": "unknown",
+    "version": "0.4.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rix",
+    "submitted": "b-rodrigues",
+    "iss_no": 625,
+    "status": "pending",
+    "version": "0.6.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "nuts",
+    "submitted": "AAoritz",
+    "iss_no": 623,
+    "status": "pending",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "karel",
+    "submitted": "mpru",
+    "iss_no": 620,
+    "status": "pending",
+    "version": "0.1.1.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "quadkeyr",
+    "submitted": "flor14",
+    "iss_no": 619,
+    "status": "pending",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "fellingdateR",
+    "submitted": "hanecakr",
+    "iss_no": 618,
+    "status": "pending",
+    "version": "0.0.0.9003",
+    "stats_version": null
+  },
+  {
+    "pkgname": "comtradr",
+    "submitted": "datapumpernickel",
+    "iss_no": 613,
+    "status": "reviewed",
+    "version": "0.4.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rOPTRAM",
+    "submitted": "micha-silver",
+    "iss_no": 612,
+    "status": "pending",
+    "version": "0.0.1.000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "baRulho",
+    "submitted": "maRce10",
+    "iss_no": 609,
+    "status": "pending",
+    "version": "2.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rgeeExtra",
+    "submitted": "csaybar",
+    "iss_no": 608,
+    "status": "pending",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "fastMatMR",
+    "submitted": "HaoZeke",
+    "iss_no": 606,
+    "status": "reviewed",
+    "version": "1.0.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "GLMMcosinor",
+    "submitted": "RWParsons",
+    "iss_no": 603,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "naijR",
+    "submitted": "BroVic",
+    "iss_no": 600,
+    "status": "reviewed",
+    "version": "0.6.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "agromet",
+    "submitted": "paocorrales",
+    "iss_no": 599,
+    "status": "pending",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "weatherOz",
+    "submitted": "bozaah",
+    "iss_no": 598,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rangr",
+    "submitted": "katarzynam-165",
+    "iss_no": 595,
+    "status": "reviewed",
+    "version": "1.0.0",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "eph",
+    "submitted": "caropradier",
+    "iss_no": 593,
+    "status": "reviewed",
+    "version": "0.6.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "mregions2",
+    "submitted": "salvafern",
+    "iss_no": 590,
+    "status": "pending",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "birdsize",
+    "submitted": "diazrenata",
+    "iss_no": 577,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "CRediTas",
+    "submitted": "jospueyo",
+    "iss_no": 576,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "pangoling",
+    "submitted": "bnicenboim",
+    "iss_no": 575,
+    "status": "pending",
+    "version": "0.0.0.9005",
+    "stats_version": null
+  },
+  {
+    "pkgname": "dwctaxon",
+    "submitted": "joelnitta",
+    "iss_no": 574,
+    "status": "reviewed",
+    "version": "1.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "qualtdict",
+    "submitted": "lyh970817",
+    "iss_no": 572,
+    "status": "unknown",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "waywiser",
+    "submitted": "mikemahoney218",
+    "iss_no": 571,
+    "status": "reviewed",
+    "version": "0.2.0.9000",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "ohun",
+    "submitted": "maRce10",
+    "iss_no": 568,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "predictNMB",
+    "submitted": "RWParsons",
+    "iss_no": 566,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "openalexR",
+    "submitted": "trangdata",
+    "iss_no": 560,
+    "status": "reviewed",
+    "version": "1.0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "concstats",
+    "submitted": "schneiderpy",
+    "iss_no": 559,
+    "status": "reviewed",
+    "version": "0.1.4",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "dfms",
+    "submitted": "SebKrantz",
+    "iss_no": 556,
+    "status": "pending",
+    "version": "0.1.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "dynamite",
+    "submitted": "santikka",
+    "iss_no": 554,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "dataset",
+    "submitted": "antaldaniel",
+    "iss_no": 553,
+    "status": "unknown",
+    "version": "0.1.7.3",
+    "stats_version": null
+  },
+  {
+    "pkgname": "stochLAB",
+    "submitted": "grwhumphries",
+    "iss_no": 551,
+    "status": "reviewed",
+    "version": "1.1.0",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "melt",
+    "submitted": "markean",
+    "iss_no": 550,
+    "status": "reviewed",
+    "version": "1.6.0.9000",
+    "stats_version": "0.1"
+  },
+  {
+    "pkgname": "fwildclusterboot",
+    "submitted": "s3alfisc",
+    "iss_no": 546,
+    "status": "pending",
+    "version": "0.13.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "spiro",
+    "submitted": "smnnlt",
+    "iss_no": 541,
+    "status": "reviewed",
+    "version": "0.0.5",
+    "stats_version": null
+  },
+  {
+    "pkgname": "daiquiri",
+    "submitted": "phuongquan",
+    "iss_no": 535,
+    "status": "reviewed",
+    "version": "0.7.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rb3",
+    "submitted": "msperlin",
+    "iss_no": 534,
+    "status": "reviewed",
+    "version": "0.0.3",
+    "stats_version": null
+  },
+  {
+    "pkgname": "datefixR",
+    "submitted": "nathansam",
+    "iss_no": 533,
+    "status": "reviewed",
+    "version": "0.1.4.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "aorsf",
+    "submitted": "bcjaeger",
+    "iss_no": 532,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": "0.1"
+  },
+  {
+    "pkgname": "hudr",
+    "submitted": "etam4260",
+    "iss_no": 524,
+    "status": "pending",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "yfR",
+    "submitted": "msperlin",
+    "iss_no": 523,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "wmm",
+    "submitted": "wfrierson",
+    "iss_no": 522,
+    "status": "reviewed",
+    "version": "1.1.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "unifir",
+    "submitted": "mikemahoney218",
+    "iss_no": 521,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "npi",
+    "submitted": "frankfarach",
+    "iss_no": 505,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "octolog",
+    "submitted": "assignUser",
+    "iss_no": 502,
+    "status": "pending",
+    "version": "0.1.1.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "EDIutils",
+    "submitted": "clnsmth",
+    "iss_no": 498,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "frictionless",
+    "submitted": "peterdesmet",
+    "iss_no": 495,
+    "status": "reviewed",
+    "version": "0.9.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "gbifdb",
+    "submitted": "cboettig",
+    "iss_no": 492,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "bssm",
+    "submitted": "helske",
+    "iss_no": 489,
+    "status": "unknown",
+    "version": "2.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "gittargets",
+    "submitted": "wlandau",
+    "iss_no": 486,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "ReLTER",
+    "submitted": "oggioniale",
+    "iss_no": 485,
+    "status": "reviewed",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rfema",
+    "submitted": "dylan-turner25",
+    "iss_no": 484,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "canaper",
+    "submitted": "joelnitta",
+    "iss_no": 475,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": "0.1"
+  },
+  {
+    "pkgname": "qualR",
+    "submitted": "quishqa",
+    "iss_no": 474,
+    "status": "reviewed",
+    "version": "0.9.5",
+    "stats_version": null
+  },
+  {
+    "pkgname": "OmicsMetaData",
+    "submitted": "msweetlove",
+    "iss_no": 471,
+    "status": "pending",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tidyqpcr",
+    "submitted": "ewallace",
+    "iss_no": 470,
+    "status": "reviewed",
+    "version": "0.3",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tsbox",
+    "submitted": "christophsax",
+    "iss_no": 464,
+    "status": "reviewed",
+    "version": "0.3.1.9001",
+    "stats_version": "0.2"
+  },
+  {
+    "pkgname": "cffr",
+    "submitted": "dieghernan",
+    "iss_no": 463,
+    "status": "reviewed",
+    "version": "0.0.1.9001",
+    "stats_version": null
+  },
+  {
+    "pkgname": "phruta",
+    "submitted": "cromanpa94",
+    "iss_no": 458,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "excluder",
+    "submitted": "JeffreyRStevens",
+    "iss_no": 455,
+    "status": "reviewed",
+    "version": "0.2.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rdbhapi",
+    "submitted": "makinin",
+    "iss_no": 443,
+    "status": "unknown",
+    "version": "2.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rsat",
+    "submitted": "unai-perez",
+    "iss_no": 437,
+    "status": "reviewed",
+    "version": "0.1.14",
+    "stats_version": null
+  },
+  {
+    "pkgname": "allodb",
+    "submitted": "gonzalezeb",
+    "iss_no": 436,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "gendercoder",
+    "submitted": "ekothe",
+    "iss_no": 435,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "mctq",
+    "submitted": "danielvartan",
+    "iss_no": 434,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "ROriginStamp",
+    "submitted": "rkrug",
+    "iss_no": 433,
+    "status": "pending",
+    "version": "0.8.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "awardFindR",
+    "submitted": "mccallc",
+    "iss_no": 432,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "stantargets",
+    "submitted": "wlandau",
+    "iss_no": 430,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "dataaimsr",
+    "submitted": "dbarneche",
+    "iss_no": 428,
+    "status": "reviewed",
+    "version": "1.0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "dataspice",
+    "submitted": "amoeba",
+    "iss_no": 426,
+    "status": "reviewed",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "jagstargets",
+    "submitted": "wlandau",
+    "iss_no": 425,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "slopes",
+    "submitted": "temospena",
+    "iss_no": 420,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "epair",
+    "submitted": "GLOrozcoM",
+    "iss_no": 418,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "terrainr",
+    "submitted": "mikemahoney218",
+    "iss_no": 416,
+    "status": "reviewed",
+    "version": "0.2.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "censo2017",
+    "submitted": "pachadotdev",
+    "iss_no": 414,
+    "status": "reviewed",
+    "version": "0.4",
+    "stats_version": null
+  },
+  {
+    "pkgname": "pathviewR",
+    "submitted": "vbaliga",
+    "iss_no": 409,
+    "status": "reviewed",
+    "version": "0.9.4",
+    "stats_version": null
+  },
+  {
+    "pkgname": "occCite",
+    "submitted": "hannahlowens",
+    "iss_no": 407,
+    "status": "reviewed",
+    "version": "0.4.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "pixelclasser",
+    "submitted": "CarlosRealR",
+    "iss_no": 406,
+    "status": "reviewed",
+    "version": "0.5.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "targets",
+    "submitted": "wlandau",
+    "iss_no": 401,
+    "status": "reviewed",
+    "version": "0.0.0.9001",
+    "stats_version": null
+  },
+  {
+    "pkgname": "osmextract",
+    "submitted": "agila5",
+    "iss_no": 395,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "readODS",
+    "submitted": "chainsawriot",
+    "iss_no": 386,
+    "status": "reviewed",
+    "version": "1.7.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "phonfieldwork",
+    "submitted": "agricolamz",
+    "iss_no": 385,
+    "status": "reviewed",
+    "version": "0.0.8",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tidytags",
+    "submitted": "bretsw",
+    "iss_no": 382,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "coder",
+    "submitted": "eribul",
+    "iss_no": 381,
+    "status": "reviewed",
+    "version": "0.11.9",
+    "stats_version": null
+  },
+  {
+    "pkgname": "medrxivr",
+    "submitted": "mcguinlu",
+    "iss_no": 380,
+    "status": "reviewed",
+    "version": "0.0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "SymbiotaR2",
+    "submitted": "akoontz11",
+    "iss_no": 373,
+    "status": "reviewed",
+    "version": "0.0-1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "treedata.table",
+    "submitted": "uyedaj",
+    "iss_no": 367,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "dittodb",
+    "submitted": "jonkeane",
+    "iss_no": 366,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "mcbette",
+    "submitted": "richelbilderbeek",
+    "iss_no": 360,
+    "status": "reviewed",
+    "version": "1.8.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "BaseSet",
+    "submitted": "llrs",
+    "iss_no": 359,
+    "status": "reviewed",
+    "version": "0.0.10",
+    "stats_version": null
+  },
+  {
+    "pkgname": "healthdatacsv",
+    "submitted": "iecastro",
+    "iss_no": 358,
+    "status": "pending",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "chirps",
+    "submitted": "kauedesousa",
+    "iss_no": 357,
+    "status": "reviewed",
+    "version": "0.0.4",
+    "stats_version": null
+  },
+  {
+    "pkgname": "circle",
+    "submitted": "pat-s",
+    "iss_no": 356,
+    "status": "reviewed",
+    "version": "0.7.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "dbparser",
+    "submitted": "MohammedFCIS",
+    "iss_no": 347,
+    "status": "reviewed",
+    "version": "1.0.4",
+    "stats_version": null
+  },
+  {
+    "pkgname": "taxadb",
+    "submitted": "karinorman",
+    "iss_no": 344,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "eia",
+    "submitted": "leonawicz",
+    "iss_no": 342,
+    "status": "reviewed",
+    "version": "0.3.3",
+    "stats_version": null
+  },
+  {
+    "pkgname": "parzer",
+    "submitted": "sckott",
+    "iss_no": 341,
+    "status": "reviewed",
+    "version": "0.0.4.9110",
+    "stats_version": null
+  },
+  {
+    "pkgname": "baRcodeR",
+    "submitted": "yihanwu",
+    "iss_no": 338,
+    "status": "reviewed",
+    "version": "0.1.4",
+    "stats_version": null
+  },
+  {
+    "pkgname": "ruODK",
+    "submitted": "florianm",
+    "iss_no": 335,
+    "status": "reviewed",
+    "version": "0.6.6.9025",
+    "stats_version": null
+  },
+  {
+    "pkgname": "c14bazAAR",
+    "submitted": "nevrome",
+    "iss_no": 333,
+    "status": "reviewed",
+    "version": "1.0.3.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rmangal",
+    "submitted": "SteveViss",
+    "iss_no": 332,
+    "status": "reviewed",
+    "version": "1.9.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "mapscanner",
+    "submitted": "mpadge",
+    "iss_no": 330,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "chemspiderapi",
+    "submitted": "RaoulWolf",
+    "iss_no": 329,
+    "status": "pending",
+    "version": "0.0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "Rclean",
+    "submitted": "MKLau",
+    "iss_no": 327,
+    "status": "reviewed",
+    "version": "1.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "workloopR",
+    "submitted": "vbaliga",
+    "iss_no": 326,
+    "status": "reviewed",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "photosearcher",
+    "submitted": "Dr-Nathan-Fox",
+    "iss_no": 325,
+    "status": "reviewed",
+    "version": "1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "UCSCXenaTools",
+    "submitted": "ShixiangWang",
+    "iss_no": 315,
+    "status": "reviewed",
+    "version": "1.2.3",
+    "stats_version": null
+  },
+  {
+    "pkgname": "exoplanets",
+    "submitted": "tylerlittlefield",
+    "iss_no": 309,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "chlorpromazineR",
+    "submitted": "eebrown",
+    "iss_no": 307,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tic",
+    "submitted": "krlmlr",
+    "iss_no": 305,
+    "status": "reviewed",
+    "version": "0.2.13.9016",
+    "stats_version": null
+  },
+  {
+    "pkgname": "gitignore",
+    "submitted": "PMassicotte",
+    "iss_no": 303,
+    "status": "reviewed",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rtweet",
+    "submitted": "mkearney",
+    "iss_no": 302,
+    "status": "reviewed",
+    "version": "0.6.9",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rnassqs",
+    "submitted": "potterzot",
+    "iss_no": 298,
+    "status": "reviewed",
+    "version": "0.4.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "opentripplanner",
+    "submitted": "mem48",
+    "iss_no": 295,
+    "status": "reviewed",
+    "version": "0.1.0.0000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "citesdb",
+    "submitted": "noamross",
+    "iss_no": 292,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tidypmc",
+    "submitted": "cstubben",
+    "iss_no": 290,
+    "status": "reviewed",
+    "version": "1.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "grainchanger",
+    "submitted": "laurajanegraham",
+    "iss_no": 289,
+    "status": "reviewed",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "MtreeRing",
+    "submitted": "JingningShi",
+    "iss_no": 287,
+    "status": "reviewed",
+    "version": "1.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rromeo",
+    "submitted": "Rekyt",
+    "iss_no": 285,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "cde",
+    "submitted": "robbriers",
+    "iss_no": 284,
+    "status": "reviewed",
+    "version": "0.3.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "outsider",
+    "submitted": "DomBennett",
+    "iss_no": 282,
+    "status": "reviewed",
+    "version": "0.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "CytoRSuite",
+    "submitted": "DillonHammill",
+    "iss_no": 281,
+    "status": "pending",
+    "version": "0.9.9",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tacmagic",
+    "submitted": "eebrown",
+    "iss_no": 280,
+    "status": "reviewed",
+    "version": "0.1.9",
+    "stats_version": null
+  },
+  {
+    "pkgname": "osfr",
+    "submitted": "aaronwolen",
+    "iss_no": 279,
+    "status": "reviewed",
+    "version": "0.2.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tradestatistics",
+    "submitted": "pachadotdev",
+    "iss_no": 274,
+    "status": "reviewed",
+    "version": "0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "virtuoso",
+    "submitted": "cboettig",
+    "iss_no": 271,
+    "status": "reviewed",
+    "version": "0.1.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "emld",
+    "submitted": "cboettig",
+    "iss_no": 269,
+    "status": "reviewed",
+    "version": "0.0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "lightr",
+    "submitted": "Bisaloo",
+    "iss_no": 267,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "stats19",
+    "submitted": "Robinlovelace",
+    "iss_no": 266,
+    "status": "reviewed",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "ramlegacy",
+    "submitted": "kshtzgupta1",
+    "iss_no": 264,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "git2rdata",
+    "submitted": "ThierryO",
+    "iss_no": 263,
+    "status": "reviewed",
+    "version": "0.0.1.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "nlrx",
+    "submitted": "nldoc",
+    "iss_no": 262,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "DataSpaceR",
+    "submitted": "juyeongkim",
+    "iss_no": 261,
+    "status": "reviewed",
+    "version": "0.5.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "nbaR",
+    "submitted": "hettling",
+    "iss_no": 257,
+    "status": "reviewed",
+    "version": "0.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "refnet",
+    "submitted": "aurielfournier",
+    "iss_no": 256,
+    "status": "reviewed",
+    "version": "0.6",
+    "stats_version": null
+  },
+  {
+    "pkgname": "wateRinfo",
+    "submitted": "stijnvanhoey",
+    "iss_no": 255,
+    "status": "reviewed",
+    "version": "0.2.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "popler",
+    "submitted": "AldoCompagnoni",
+    "iss_no": 254,
+    "status": "reviewed",
+    "version": "0.0.0.9001",
+    "stats_version": null
+  },
+  {
+    "pkgname": "MODISTools",
+    "submitted": "khufkens",
+    "iss_no": 246,
+    "status": "reviewed",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rcites",
+    "submitted": "JonasGeschke",
+    "iss_no": 244,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "colocr",
+    "submitted": "MahShaaban",
+    "iss_no": 243,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "treestartr",
+    "submitted": "wrightaprilm",
+    "iss_no": 239,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rdhs",
+    "submitted": "OJWatson",
+    "iss_no": 238,
+    "status": "reviewed",
+    "version": "0.5.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "spatsoc",
+    "submitted": "robitalec",
+    "iss_no": 237,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "taxlist",
+    "submitted": "kamapu",
+    "iss_no": 233,
+    "status": "reviewed",
+    "version": "0.1.5",
+    "stats_version": null
+  },
+  {
+    "pkgname": "restez",
+    "submitted": "DomBennett",
+    "iss_no": 232,
+    "status": "reviewed",
+    "version": "0.0.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "smapr",
+    "submitted": "mbjoseph",
+    "iss_no": 231,
+    "status": "reviewed",
+    "version": "0.1.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "DataPackageR",
+    "submitted": "gfinak",
+    "iss_no": 230,
+    "status": "reviewed",
+    "version": "0.13.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tiler",
+    "submitted": "leonawicz",
+    "iss_no": 226,
+    "status": "reviewed",
+    "version": "0.2.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "arkdb",
+    "submitted": "cboettig",
+    "iss_no": 224,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "xROI",
+    "submitted": "bnasr",
+    "iss_no": 223,
+    "status": "unknown",
+    "version": "0.1.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "epubr",
+    "submitted": "leonawicz",
+    "iss_no": 222,
+    "status": "reviewed",
+    "version": "0.4.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "piggyback",
+    "submitted": "cboettig",
+    "iss_no": 220,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "infx",
+    "submitted": "nbenn",
+    "iss_no": 218,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "oec",
+    "submitted": "pachadotdev",
+    "iss_no": 217,
+    "status": "pending",
+    "version": "2.8.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "skynet",
+    "submitted": "FilipeamTeixeira",
+    "iss_no": 214,
+    "status": "reviewed",
+    "version": "1.0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "outcomerate",
+    "submitted": "rtaph",
+    "iss_no": 213,
+    "status": "reviewed",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "phylogram",
+    "submitted": "shaunpwilkinson",
+    "iss_no": 212,
+    "status": "reviewed",
+    "version": "2.0.1.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "CoordinateCleaner",
+    "submitted": "azizka",
+    "iss_no": 210,
+    "status": "reviewed",
+    "version": "1.1-0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "babette",
+    "submitted": "richelbilderbeek",
+    "iss_no": 209,
+    "status": "reviewed",
+    "version": "1.2.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rppo",
+    "submitted": "jdeck88",
+    "iss_no": 207,
+    "status": "reviewed",
+    "version": "1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "ess",
+    "submitted": "cimentadaj",
+    "iss_no": 201,
+    "status": "reviewed",
+    "version": "0.1.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "antanym",
+    "submitted": "raymondben",
+    "iss_no": 198,
+    "status": "reviewed",
+    "version": "0.3.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "suppdata",
+    "submitted": "willpearse",
+    "iss_no": 195,
+    "status": "reviewed",
+    "version": "0.9-0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "qualtRics",
+    "submitted": "JasperHG90",
+    "iss_no": 192,
+    "status": "reviewed",
+    "version": "3.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rtika",
+    "submitted": "goodmansasha",
+    "iss_no": 191,
+    "status": "reviewed",
+    "version": "0.1.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "nomisr",
+    "submitted": "evanodell",
+    "iss_no": 190,
+    "status": "reviewed",
+    "version": "0.0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "jstor",
+    "submitted": "tklebel",
+    "iss_no": 189,
+    "status": "reviewed",
+    "version": "0.2.6",
+    "stats_version": null
+  },
+  {
+    "pkgname": "NLMR",
+    "submitted": "marcosci",
+    "iss_no": 188,
+    "status": "reviewed",
+    "version": "0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "phylotaR",
+    "submitted": "DomBennett",
+    "iss_no": 187,
+    "status": "reviewed",
+    "version": "0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "hydroscoper",
+    "submitted": "kvantas",
+    "iss_no": 185,
+    "status": "reviewed",
+    "version": "0.2.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "MODIStsp",
+    "submitted": "lbusett",
+    "iss_no": 184,
+    "status": "reviewed",
+    "version": "1.3.3.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "treeio",
+    "submitted": "GuangchuangYu",
+    "iss_no": 179,
+    "status": "reviewed",
+    "version": "1.3.10",
+    "stats_version": null
+  },
+  {
+    "pkgname": "oneKP",
+    "submitted": "arendsee",
+    "iss_no": 178,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "PostcodesioR",
+    "submitted": "erzk",
+    "iss_no": 176,
+    "status": "reviewed",
+    "version": "0.1.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "skimr",
+    "submitted": "elinw",
+    "iss_no": 175,
+    "status": "reviewed",
+    "version": "0.9.92",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tidync",
+    "submitted": "mdsumner",
+    "iss_no": 174,
+    "status": "reviewed",
+    "version": "0.0.3",
+    "stats_version": null
+  },
+  {
+    "pkgname": "coinmarketcapr",
+    "submitted": "amrrs",
+    "iss_no": 172,
+    "status": "pending",
+    "version": "0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rdflib",
+    "submitted": "cboettig",
+    "iss_no": 169,
+    "status": "reviewed",
+    "version": "0.0.2",
+    "stats_version": null
+  },
+  {
+    "pkgname": "fingertipsR",
+    "submitted": "sebastian-fox",
+    "iss_no": 168,
+    "status": "reviewed",
+    "version": "0.1.3.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "ijtiff",
+    "submitted": "rorynolan",
+    "iss_no": 164,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "weathercan",
+    "submitted": "steffilazerte",
+    "iss_no": 160,
+    "status": "reviewed",
+    "version": "0.2.2.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "Rpolyhedra",
+    "submitted": "kenarab",
+    "iss_no": 157,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "drake",
+    "submitted": "wlandau-lilly",
+    "iss_no": 156,
+    "status": "reviewed",
+    "version": "4.4.1.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "nasapower",
+    "submitted": "adamhsparks",
+    "iss_no": 155,
+    "status": "reviewed",
+    "version": "1.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "EndoMineR",
+    "submitted": "sebastiz",
+    "iss_no": 153,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "tidyhydat",
+    "submitted": "boshek",
+    "iss_no": 152,
+    "status": "reviewed",
+    "version": "0.2.9",
+    "stats_version": null
+  },
+  {
+    "pkgname": "cRegulome",
+    "submitted": "MahShaaban",
+    "iss_no": 149,
+    "status": "reviewed",
+    "version": "0.99.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rperseus",
+    "submitted": "daranzolin",
+    "iss_no": 145,
+    "status": "reviewed",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "comtradr",
+    "submitted": "ChrisMuir",
+    "iss_no": 141,
+    "status": "reviewed",
+    "version": "0.0.2.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "bowerbird",
+    "submitted": "raymondben",
+    "iss_no": 139,
+    "status": "reviewed",
+    "version": "0.3.4",
+    "stats_version": null
+  },
+  {
+    "pkgname": "rfishbase",
+    "submitted": "noamross",
+    "iss_no": 137,
+    "status": "reviewed",
+    "version": "2.1.2.3",
+    "stats_version": null
+  },
+  {
+    "pkgname": "auk",
+    "submitted": "mstrimas",
+    "iss_no": 136,
+    "status": "reviewed",
+    "version": "0.0.2.900",
+    "stats_version": null
+  },
+  {
+    "pkgname": "data.world",
+    "submitted": "rflprr",
+    "iss_no": 133,
+    "status": "pending",
+    "version": "1.1.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "codemetar",
+    "submitted": "cboettig",
+    "iss_no": 130,
+    "status": "reviewed",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
+    "pkgname": "googleLanguageR",
+    "submitted": "MarkEdmondson1234",
+    "iss_no": 127,
+    "status": "reviewed",
+    "version": null,
+    "stats_version": null
+  },
+  {
+    "pkgname": "rtimicropem",
+    "submitted": "maelle",
+    "iss_no": 126,
+    "status": "reviewed",
+    "version": "1.3",
+    "stats_version": null
+  },
+  {
     "pkgname": "bib2df",
     "submitted": "ottlngr",
     "iss_no": 124,
