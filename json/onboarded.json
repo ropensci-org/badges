@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "rsi",
+    "submitted": "mikemahoney218",
+    "iss_no": 636,
+    "status": "unknown",
+    "version": "0.2.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "dendroNetwork",
     "submitted": "RonaldVisser",
     "iss_no": 627,
