@@ -79,7 +79,10 @@ while (has_next_page) {
     )
     author <- c (
         author,
-        vapply (edges, function (i) i$node$author$login, character (1L))
+        vapply (edges, function (i) {
+            aut <- i$node$author$login
+            ifelse (is.null (aut), NA_character_, aut)
+        }, character (1L))
     )
     state <- c (
         state,
