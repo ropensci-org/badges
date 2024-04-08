@@ -41,3 +41,7 @@ jobs:
           folder: pkgsvgs
           git-config-name: ropenscibot
           git-config-email: accounts+ropenscibot@ropensci.org
+
+      - name: Notify on failure
+        if: ${{ failure() }}
+        run: gh issue comment 18 -b "@maelle @mpadge The badges workflow has failed"
