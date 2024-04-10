@@ -1,10 +1,26 @@
 [
   {
+    "pkgname": "cancerprof",
+    "submitted": "realbp",
+    "iss_no": 637,
+    "status": "unknown",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "rsi",
     "submitted": "mikemahoney218",
     "iss_no": 636,
     "status": "unknown",
     "version": "0.2.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "osmapiR",
+    "submitted": "jmaspons",
+    "iss_no": 633,
+    "status": "unknown",
+    "version": "0.0.0.22",
     "stats_version": null
   },
   {
