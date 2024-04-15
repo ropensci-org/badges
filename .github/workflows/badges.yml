@@ -44,4 +44,8 @@ jobs:
 
       - name: Notify on failure
         if: ${{ failure() }}
-        run: gh issue comment 18 -b "@maelle @mpadge The badges workflow has failed"
+        uses: ropensci-review-tools/actions/ping-dev-team@v1
+        with:
+          REPO_NAME: 'badges'
+          ISSUE_NUM: 18
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
