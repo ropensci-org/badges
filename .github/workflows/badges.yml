@@ -44,7 +44,7 @@ jobs:
 
       - name: Notify on failure
         if: ${{ failure() }}
-        uses: ropensci-review-tools/actions/ping-dev-team@v1
+        uses: ropensci-review-tools/actions/ping-dev-team@v2
         with:
           REPO_NAME: 'badges'
           ISSUE_NUM: 18
