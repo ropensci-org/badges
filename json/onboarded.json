@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "chopin",
+    "submitted": "sigmafelix",
+    "iss_no": 638,
+    "status": "unknown",
+    "version": "0.6.2.20240423",
+    "stats_version": null
+  },
+  {
     "pkgname": "cancerprof",
     "submitted": "realbp",
     "iss_no": 637,
