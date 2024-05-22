@@ -11,7 +11,7 @@
     "pkgname": "cancerprof",
     "submitted": "realbp",
     "iss_no": 637,
-    "status": "unknown",
+    "status": "pending",
     "version": "0.1.0",
     "stats_version": null
   },
@@ -157,6 +157,14 @@
     "iss_no": 598,
     "status": "reviewed",
     "version": "0.0.1",
+    "stats_version": null
+  },
+  {
+    "pkgname": "sits",
+    "submitted": "gilbertocamara",
+    "iss_no": 596,
+    "status": "unknown",
+    "version": "1.4.2",
     "stats_version": null
   },
   {
