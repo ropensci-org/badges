@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "eDNAjoint",
+    "submitted": "abigailkeller",
+    "iss_no": 642,
+    "status": "unknown",
+    "version": "0.1",
+    "stats_version": null
+  },
+  {
     "pkgname": "chopin",
     "submitted": "sigmafelix",
     "iss_no": 638,
