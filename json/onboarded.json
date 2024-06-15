@@ -40,6 +40,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "QuadratiK",
+    "submitted": "giovsaraceno",
+    "iss_no": 632,
+    "status": "unknown",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "dendroNetwork",
     "submitted": "RonaldVisser",
     "iss_no": 627,
