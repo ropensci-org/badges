@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "feowR",
+    "submitted": "brunomioto",
+    "iss_no": 647,
+    "status": "unknown",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "eDNAjoint",
     "submitted": "abigailkeller",
     "iss_no": 642,
