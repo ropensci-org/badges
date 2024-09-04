@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "emodnet.wfs",
+    "submitted": "maelle",
+    "iss_no": 653,
+    "status": "unknown",
+    "version": "2.0.2",
+    "stats_version": null
+  },
+  {
     "pkgname": "eDNAjoint",
     "submitted": "abigailkeller",
     "iss_no": 642,
