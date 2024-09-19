@@ -112,6 +112,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "galamm",
+    "submitted": "osorensen",
+    "iss_no": 615,
+    "status": "unknown",
+    "version": "0.1.1.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "comtradr",
     "submitted": "datapumpernickel",
     "iss_no": 613,
