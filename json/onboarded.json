@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "mbquartR",
+    "submitted": "alex-koiter",
+    "iss_no": 658,
+    "status": "unknown",
+    "version": "0.0.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "emodnet.wfs",
     "submitted": "maelle",
     "iss_no": 653,
