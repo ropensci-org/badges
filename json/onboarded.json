@@ -19,9 +19,9 @@
     "pkgname": "eDNAjoint",
     "submitted": "abigailkeller",
     "iss_no": 642,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "chopin",
