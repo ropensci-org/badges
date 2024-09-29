@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "fireexposuR",
+    "submitted": "heyairf",
+    "iss_no": 659,
+    "status": "unknown",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "mbquartR",
     "submitted": "alex-koiter",
     "iss_no": 658,
