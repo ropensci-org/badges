@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "forcis",
+    "submitted": "ahasverus",
+    "iss_no": 660,
+    "status": "unknown",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "fireexposuR",
     "submitted": "heyairf",
     "iss_no": 659,
