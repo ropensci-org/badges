@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "rredlist",
+    "submitted": "willgearty",
+    "iss_no": 663,
+    "status": "unknown",
+    "version": "0.7.1.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "forcis",
     "submitted": "ahasverus",
     "iss_no": 660,
