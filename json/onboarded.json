@@ -19,7 +19,7 @@
     "pkgname": "fireexposuR",
     "submitted": "heyairf",
     "iss_no": 659,
-    "status": "unknown",
+    "status": "pending",
     "version": "1.0.0",
     "stats_version": null
   },
@@ -501,14 +501,6 @@
     "iss_no": 486,
     "status": "reviewed",
     "version": "0.0.0.9000",
-    "stats_version": null
-  },
-  {
-    "pkgname": "ReLTER",
-    "submitted": "oggioniale",
-    "iss_no": 485,
-    "status": "reviewed",
-    "version": "1.0.0",
     "stats_version": null
   },
   {
