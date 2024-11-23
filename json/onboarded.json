@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "pkgmatch",
+    "submitted": "mpadge",
+    "iss_no": 671,
+    "status": "unknown",
+    "version": "0.4.2",
+    "stats_version": null
+  },
+  {
     "pkgname": "rredlist",
     "submitted": "willgearty",
     "iss_no": 663,
