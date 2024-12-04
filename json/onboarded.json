@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "geotargets",
+    "submitted": "njtierney",
+    "iss_no": 675,
+    "status": "unknown",
+    "version": "0.2.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "pkgmatch",
     "submitted": "mpadge",
     "iss_no": 671,
