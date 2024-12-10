@@ -115,9 +115,9 @@
     "pkgname": "gigs",
     "submitted": "simpar1471",
     "iss_no": 626,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.4.1",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "rix",
