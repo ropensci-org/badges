@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "butterfly",
+    "submitted": "thomaszwagerman",
+    "iss_no": 676,
+    "status": "unknown",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "geotargets",
     "submitted": "njtierney",
     "iss_no": 675,
