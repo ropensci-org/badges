@@ -16,6 +16,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "browseMetadata",
+    "submitted": "RayStick",
+    "iss_no": 674,
+    "status": "unknown",
+    "version": "2.0.2",
+    "stats_version": null
+  },
+  {
     "pkgname": "pkgmatch",
     "submitted": "mpadge",
     "iss_no": 671,
