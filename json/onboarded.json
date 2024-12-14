@@ -24,6 +24,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "sasquatch",
+    "submitted": "ryanzomorrodi",
+    "iss_no": 673,
+    "status": "unknown",
+    "version": "0.0.0.9004",
+    "stats_version": null
+  },
+  {
     "pkgname": "pkgmatch",
     "submitted": "mpadge",
     "iss_no": 671,
