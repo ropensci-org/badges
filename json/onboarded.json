@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "dataset",
+    "submitted": "antaldaniel",
+    "iss_no": 681,
+    "status": "unknown",
+    "version": "0.3.4002",
+    "stats_version": null
+  },
+  {
     "pkgname": "butterfly",
     "submitted": "thomaszwagerman",
     "iss_no": 676,
