@@ -80,14 +80,6 @@
     "stats_version": null
   },
   {
-    "pkgname": "emodnet.wfs",
-    "submitted": "maelle",
-    "iss_no": 653,
-    "status": "pending",
-    "version": "2.0.2",
-    "stats_version": null
-  },
-  {
     "pkgname": "capybara",
     "submitted": "pachadotdev",
     "iss_no": 645,
