@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "gtexr",
+    "submitted": "rmgpanw",
+    "iss_no": 684,
+    "status": "unknown",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "dataset",
     "submitted": "antaldaniel",
     "iss_no": 681,
