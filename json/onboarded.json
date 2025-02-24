@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "c3dr",
+    "submitted": "smnnlt",
+    "iss_no": 686,
+    "status": "unknown",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "gtexr",
     "submitted": "rmgpanw",
     "iss_no": 684,
