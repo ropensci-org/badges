@@ -64,6 +64,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "read.abares",
+    "submitted": "adamhsparks",
+    "iss_no": 667,
+    "status": "unknown",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "rredlist",
     "submitted": "willgearty",
     "iss_no": 663,
