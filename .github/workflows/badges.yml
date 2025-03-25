@@ -34,6 +34,9 @@ jobs:
       - name: Make svgs
         run: Rscript "update_badges.R"
 
+      - name: Check pkg names in registry
+        run: Rscript "check-registry.R"
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.3
         with:
