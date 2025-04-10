@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "SSARP",
+    "submitted": "kmartinet",
+    "iss_no": 685,
+    "status": "unknown",
+    "version": "0.2.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "gtexr",
     "submitted": "rmgpanw",
     "iss_no": 684,
