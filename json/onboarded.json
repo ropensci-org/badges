@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "distionary",
+    "submitted": "vincenzocoia",
+    "iss_no": 688,
+    "status": "unknown",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "c3dr",
     "submitted": "smnnlt",
     "iss_no": 686,
