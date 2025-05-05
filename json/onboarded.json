@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "PFW",
+    "submitted": "Visorbearer",
+    "iss_no": 698,
+    "status": "unknown",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
     "pkgname": "distionary",
     "submitted": "vincenzocoia",
     "iss_no": 688,
