@@ -1,5 +1,21 @@
 [
   {
+    "pkgname": "trud",
+    "submitted": "rmgpanw",
+    "iss_no": 705,
+    "status": "unknown",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
+    "pkgname": "partialling.out",
+    "submitted": "marcboschmatas",
+    "iss_no": 703,
+    "status": "unknown",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
     "pkgname": "PFW",
     "submitted": "Visorbearer",
     "iss_no": 698,
