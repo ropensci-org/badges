@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "priorsense",
+    "submitted": "n-kall",
+    "iss_no": 704,
+    "status": "unknown",
+    "version": "1.1.1.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "partialling.out",
     "submitted": "marcboschmatas",
     "iss_no": 703,
