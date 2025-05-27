@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "rixpress",
+    "submitted": "b-rodrigues",
+    "iss_no": 706,
+    "status": "unknown",
+    "version": "0.2.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "trud",
     "submitted": "rmgpanw",
     "iss_no": 705,
