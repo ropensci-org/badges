@@ -48,6 +48,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "hdcuremodels",
+    "submitted": "kelliejarcher",
+    "iss_no": 692,
+    "status": "unknown",
+    "version": "0.0.2",
+    "stats_version": null
+  },
+  {
     "pkgname": "distionary",
     "submitted": "vincenzocoia",
     "iss_no": 688,
