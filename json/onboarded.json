@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "babelquarto",
+    "submitted": "maelle",
+    "iss_no": 720,
+    "status": "unknown",
+    "version": "0.0.1",
+    "stats_version": null
+  },
+  {
     "pkgname": "openFDA",
     "submitted": "simpar1471",
     "iss_no": 714,
