@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "rcrisp",
+    "submitted": "cforgaci",
+    "iss_no": 718,
+    "status": "unknown",
+    "version": "0.1.4",
+    "stats_version": null
+  },
+  {
     "pkgname": "coevolve",
     "submitted": "ScottClaessens",
     "iss_no": 717,
