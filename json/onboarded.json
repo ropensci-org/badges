@@ -51,7 +51,7 @@
     "pkgname": "rixpress",
     "submitted": "b-rodrigues",
     "iss_no": 706,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.2.0",
     "stats_version": null
   },
@@ -91,9 +91,9 @@
     "pkgname": "hdcuremodels",
     "submitted": "kelliejarcher",
     "iss_no": 692,
-    "status": "unknown",
+    "status": "reviewed",
     "version": "0.0.2",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "distionary",
