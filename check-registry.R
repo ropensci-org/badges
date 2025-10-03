@@ -11,6 +11,8 @@ if (!file.exists (ob)) {
 json_data <- jsonlite::read_json (ob, simplifyVector = TRUE)
 json_data <- json_data [json_data$status == "reviewed", ]
 
+dplyr::filter (json_data, grepl ("ssarp", pkgname, ignore.case = TRUE)) # "SSARP"
+
 u_base <- "https://api.github.com/repos/ropensci/roregistry/"
 u <- paste0 (u_base, "contents/packages.json")
 ftmp <- tempfile (fileext = ".json")
@@ -22,10 +24,42 @@ pj <- gh::gh (
 pj <- jsonlite::read_json (ftmp, simplifyVector = TRUE)
 file.remove (ftmp)
 
+dplyr::filter (pj, grepl ("ssarp", package, ignore.case = TRUE)) # "ssarp"
+
+# Check against codemeta created in 'makeregistry', which extracts actual
+# current package names:
+cm_url <- "https://github.com/ropensci/roregistry/blob/gh-pages/raw_cm.json?raw=true"
+cm <- jsonlite::read_json (cm_url)
+cm <- cm[lengths(cm) > 0]
+keep <- c ("identifier", "name", "codeRepository")
+cm <- lapply (cm, function (i) {
+    revdat <- ifelse (length (i$review) > 0L, i$review$url, NA_character_)
+    data.frame (c (i [keep], review = revdat))
+})
+cm <- do.call (rbind, cm)
+
+cm_pj <- dplyr::left_join (pj, cm, by = c ("url" = "codeRepository"))
+index <- which (!is.na (cm_pj$review) & is.na (cm_pj$metadata$review$id))
+# packages.json has metadata consisting of:
+# - review$id
+# - review$status
+# - review$version
+# - review$organization
+# - review$url
+
+ids <- regmatches (
+    cm_pj$review [index],
+    regexpr ("\\/[0-9]+$", cm_pj$review [index])
+)
+ids <- as.integer (gsub ("^\\/", "", ids))
+cm_pj$metadata$review$id [index] <- ids
+cm_pj$metadata$review$url [index] <- cm_pj$review [index]
+dplyr::filter (cm_pj, grepl ("ssarp", package, ignore.case = TRUE)) # "ssarp"
+
 # The `json_data` include packages which have been archived on GitHub.
 # These no longer appear at all in packages.json, so reduce `pj` data down to
 # only those in the registry:
-pj_reg <- pj [which (!is.na (pj$metadata$review$id)), ]
+pj_reg <- cm_pj [which (!is.na (cm_pj$metadata$review$id)), ]
 pj_reg <- data.frame (
     package_pj = pj_reg$package,
     status = pj_reg$metadata$review$status,
