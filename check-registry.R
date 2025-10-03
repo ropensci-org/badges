@@ -11,8 +11,6 @@ if (!file.exists (ob)) {
 json_data <- jsonlite::read_json (ob, simplifyVector = TRUE)
 json_data <- json_data [json_data$status == "reviewed", ]
 
-dplyr::filter (json_data, grepl ("ssarp", pkgname, ignore.case = TRUE)) # "SSARP"
-
 u_base <- "https://api.github.com/repos/ropensci/roregistry/"
 u <- paste0 (u_base, "contents/packages.json")
 ftmp <- tempfile (fileext = ".json")
@@ -23,8 +21,6 @@ pj <- gh::gh (
 )
 pj <- jsonlite::read_json (ftmp, simplifyVector = TRUE)
 file.remove (ftmp)
-
-dplyr::filter (pj, grepl ("ssarp", package, ignore.case = TRUE)) # "ssarp"
 
 # Check against codemeta created in 'makeregistry', which extracts actual
 # current package names:
@@ -54,7 +50,6 @@ ids <- regmatches (
 ids <- as.integer (gsub ("^\\/", "", ids))
 cm_pj$metadata$review$id [index] <- ids
 cm_pj$metadata$review$url [index] <- cm_pj$review [index]
-dplyr::filter (cm_pj, grepl ("ssarp", package, ignore.case = TRUE)) # "ssarp"
 
 # The `json_data` include packages which have been archived on GitHub.
 # These no longer appear at all in packages.json, so reduce `pj` data down to
