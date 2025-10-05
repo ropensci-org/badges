@@ -90,7 +90,7 @@ if (length (index) > 0) {
 
     pj_mismatch <- pj_reg [index, ]
     hrefs <- paste0 (
-        " - https://github.com/ropensci/software_review/issues/",
+        " - [ ] https://github.com/ropensci/software_review/issues/",
         pj_mismatch$iss_no,
         "  '", pj_mismatch$package_pj, "' in roregistry;  '",
         pj_mismatch$pkgname, "' in review thread/here"
@@ -103,10 +103,8 @@ if (length (index) > 0) {
     iss_msg <- paste0 (c (iss_msg, hrefs), collapse = "\n")
 
     cmd <- paste (
-        "gh issue create ",
+        "gh issue comment 24 ",
         "--repo ropensci-org/badges",
-        "--title 'repository name mismatch'",
-        "--label 'bug'",
         paste0 ("--body '", iss_msg, "'")
     )
     system (cmd)
