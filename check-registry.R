@@ -35,6 +35,7 @@ cm <- lapply (cm, function (i) {
 cm <- do.call (rbind, cm)
 
 cm_pj <- dplyr::left_join (pj, cm, by = c ("url" = "codeRepository"))
+
 index <- which (!is.na (cm_pj$review) & is.na (cm_pj$metadata$review$id))
 # packages.json has metadata consisting of:
 # - review$id
@@ -64,7 +65,26 @@ pj_reg <- pj_reg [which (pj_reg$iss_no %in% json_data$iss_no), ]
 index <- match (pj_reg$iss_no, json_data$iss_no)
 pj_reg$pkgname <- json_data$pkgname [index]
 
+# At that point, "package_pj" is the actual package DESC name taken from
+# packages.json, and "pkgname" is from "onboarded.json" here, written here in
+# the "update_badges.R" script, and take from GitHub issue titles.
+#
+# Mismatches may occur because either:
+# 1. One review yielded muliple packages (e.g., targets, babette), or
+# 2. Issue title and package name are actually mismatched.
+#
+# We need to ignore the first, and identify only the second casese.
+
 index <- which (pj_reg$pkgname != pj_reg$package_pj)
+if (length (index) > 0) {
+    mismatch_issues <- sort (unique (pj_reg$iss_no [index]))
+    pj_reg_mismatch <- pj_reg [which (pj_reg$iss_no %in% mismatch_issues), ]
+    # Truly mmimatches issues will then only have a single "iss_no" value in
+    # that table:
+    mismatch_issues <- table (pj_reg_mismatch$iss_no)
+    mismatch_issues <- as.integer (names (mismatch_issues) [which (mismatch_issues == 1L)])
+    index <- which (pj_reg$iss_no %in% mismatch_issues)
+}
 
 if (length (index) > 0) {
 
