@@ -90,7 +90,7 @@ if (length (index) > 0) {
 
     pj_mismatch <- pj_reg [index, ]
     hrefs <- paste0 (
-        " - [ ] https://github.com/ropensci/software_review/issues/",
+        " - [ ] https://github.com/ropensci/software-review/issues/",
         pj_mismatch$iss_no,
         "  '", pj_mismatch$package_pj, "' in roregistry;  '",
         pj_mismatch$pkgname, "' in review thread/here"
