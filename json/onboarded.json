@@ -112,7 +112,7 @@
     "stats_version": null
   },
   {
-    "pkgname": "SSARP",
+    "pkgname": "ssarp",
     "submitted": "kmartinet",
     "iss_no": 685,
     "status": "reviewed",
@@ -336,7 +336,7 @@
     "stats_version": null
   },
   {
-    "pkgname": "fellingdateR",
+    "pkgname": "fellingdater",
     "submitted": "hanecakr",
     "iss_no": 618,
     "status": "reviewed",
@@ -896,7 +896,7 @@
     "stats_version": null
   },
   {
-    "pkgname": "pathviewR",
+    "pkgname": "pathviewr",
     "submitted": "vbaliga",
     "iss_no": 409,
     "status": "reviewed",
@@ -1368,7 +1368,7 @@
     "stats_version": null
   },
   {
-    "pkgname": "refnet",
+    "pkgname": "refsplitr",
     "submitted": "aurielfournier",
     "iss_no": 256,
     "status": "reviewed",
@@ -1576,7 +1576,7 @@
     "stats_version": null
   },
   {
-    "pkgname": "ess",
+    "pkgname": "essurvey",
     "submitted": "cimentadaj",
     "iss_no": 201,
     "status": "reviewed",
@@ -2120,7 +2120,7 @@
     "stats_version": null
   },
   {
-    "pkgname": "plateR",
+    "pkgname": "plater",
     "submitted": "seaaan",
     "iss_no": 60,
     "status": "reviewed",
@@ -2184,7 +2184,7 @@
     "stats_version": null
   },
   {
-    "pkgname": "tabulizer",
+    "pkgname": "tabulapdf",
     "submitted": "leeper",
     "iss_no": 42,
     "status": "reviewed",
@@ -2248,7 +2248,7 @@
     "stats_version": null
   },
   {
-    "pkgname": "rebi",
+    "pkgname": "europepmc",
     "submitted": "njahn82",
     "iss_no": 29,
     "status": "reviewed",
