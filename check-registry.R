@@ -90,17 +90,26 @@ if (length (index) > 0) {
 
     pj_mismatch <- pj_reg [index, ]
     hrefs <- paste0 (
-        " - [ ] https://github.com/ropensci/software_review/issues/",
+        " - [ ] https://github.com/ropensci/software-review/issues/",
         pj_mismatch$iss_no,
         "  '", pj_mismatch$package_pj, "' in roregistry;  '",
-        pj_mismatch$pkgname, "' in review thread/here"
+        pj_mismatch$pkgname, "' in review thread"
     )
     iss_msg <- paste0 (
         "The following software review issue",
         ifelse (length (index) > 1, "s", ""),
         " have package names which do not match those in the registry:"
     )
-    iss_msg <- paste0 (c (iss_msg, hrefs), collapse = "\n")
+    iss_end_comment <- paste0 (
+        "\nTo fix, update the values in the review threads to reflect ",
+        "actual package names in the registry. The review thread ",
+        "values come from the YAML template where present, or else the ",
+        "'Package' value in the full DESCRIPTION text. Update one or both ",
+        "of these to fix. Issue titles may be left in whatever form ",
+        "they currently are."
+    )
+    iss_msg <-
+        paste0 (c (iss_msg, hrefs, iss_end_comment), collapse = "\n")
 
     cmd <- paste (
         "gh issue comment 24 ",
