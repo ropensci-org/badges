@@ -103,8 +103,10 @@ if (length (index) > 0) {
     iss_end_comment <- paste0 (
         "\nTo fix, update the values in the review threads to reflect ",
         "actual package names in the registry. The review thread ",
-        "values come from the YAML template; issue titles may be ",
-        "left in whatever form they currently are."
+        "values come from the YAML template where present, or else the ",
+        "'Package' value in the full DESCRIPTION text. Update one or both ",
+        "of these to fix. Issue titles may be left in whatever form ",
+        "they currently are."
     )
     iss_msg <-
         paste0 (c (iss_msg, hrefs, iss_end_comment), collapse = "\n")
