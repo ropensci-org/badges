@@ -75,9 +75,9 @@
     "pkgname": "partialling.out",
     "submitted": "marcboschmatas",
     "iss_no": 703,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.0.1",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "PFW",
