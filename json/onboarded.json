@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "ernest",
+    "submitted": "kylesnap",
+    "iss_no": 722,
+    "status": "unknown",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "babelquarto",
     "submitted": "maelle",
     "iss_no": 720,
