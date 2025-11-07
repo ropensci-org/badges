@@ -115,9 +115,9 @@
     "pkgname": "distionary",
     "submitted": "vincenzocoia",
     "iss_no": 688,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "c3dr",
