@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "ernest",
+    "submitted": "kylesnap",
+    "iss_no": 730,
+    "status": "pending",
+    "version": "1.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "cowfootR",
     "submitted": "juanmarcosmoreno-arch",
     "iss_no": 724,
