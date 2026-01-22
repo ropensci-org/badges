@@ -579,9 +579,9 @@
     "pkgname": "dfms",
     "submitted": "SebKrantz",
     "iss_no": 556,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.2",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "dynamite",
