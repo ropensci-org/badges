@@ -228,6 +228,36 @@ json_data <- data.frame (
 # Put most recent at top of file:
 json_data <- json_data [order (json_data$iss_no, decreasing = TRUE), ]
 
+# ------------ START: ERROR message for any issues with no package name
+na_index <- which (is.na (json_data$pkgname))
+if (length (na_index) > 0L) {
+    jd_no_pkg <- json_data [na_index, ]
+    hrefs <- paste0 (
+        " - [ ] https://github.com/ropensci/software-review/issues/",
+        jd_no_pkg$iss_no
+    )
+    iss_msg <- paste0 (
+        "The following software review issue",
+        ifelse (length (jd_no_pkg) > 1, "s", ""),
+        " has no package name. This should appear as 'Package:' from the ",
+        "package DESCRIPTION file in the initial comment.\\n"
+    )
+    iss_end_comment <- paste0 (
+        "\nTo fix, update the initial comment to include 'Package:' and ",
+        "the actual package name."
+    )
+    iss_msg <-
+        paste0 (c (iss_msg, hrefs, iss_end_comment), collapse = "\n")
+
+    cmd <- paste (
+        "gh issue comment 24 ",
+        "--repo ropensci-org/badges",
+        paste0 ("--body '", iss_msg, "'")
+    )
+    system (cmd)
+}
+# ------------ END: ERROR message for any issues with no package name
+
 jdir <- file.path ("pkgsvgs", "json")
 if (!dir.exists (jdir)) {
     dir.create (jdir)
