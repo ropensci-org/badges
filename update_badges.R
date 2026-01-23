@@ -231,6 +231,7 @@ json_data <- json_data [order (json_data$iss_no, decreasing = TRUE), ]
 # ------------ START: ERROR message for any issues with no package name
 na_index <- which (is.na (json_data$pkgname))
 if (length (na_index) > 0L) {
+    cli::cli_alert_info ("Issuing GH notification on issues with no package name.")
     jd_no_pkg <- json_data [na_index, ]
     hrefs <- paste0 (
         " - [ ] https://github.com/ropensci/software-review/issues/",
@@ -255,6 +256,8 @@ if (length (na_index) > 0L) {
         paste0 ("--body '", iss_msg, "'")
     )
     system (cmd)
+
+    json_data <- json_data [-na_index, ]
 }
 # ------------ END: ERROR message for any issues with no package name
 
