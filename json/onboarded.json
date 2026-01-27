@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "fcmconfr",
+    "submitted": "bhroston",
+    "iss_no": 740,
+    "status": "unknown",
+    "version": "0.2.3",
+    "stats_version": null
+  },
+  {
     "pkgname": "ActiGlobe",
     "submitted": "cwy20030",
     "iss_no": 732,
