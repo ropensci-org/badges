@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "logolink",
+    "submitted": "danielvartan",
+    "iss_no": 741,
+    "status": "unknown",
+    "version": "1.0.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "fcmconfr",
     "submitted": "bhroston",
     "iss_no": 740,
