@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "nycOpenData",
+    "submitted": "martinezc1",
+    "iss_no": 750,
+    "status": "unknown",
+    "version": "0.1.5",
+    "stats_version": null
+  },
+  {
     "pkgname": "RAQSAPI",
     "submitted": "mccroweyclinton-EPA",
     "iss_no": 744,
