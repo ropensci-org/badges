@@ -8,6 +8,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "pvEBayes",
+    "submitted": "YihaoTancn",
+    "iss_no": 746,
+    "status": "unknown",
+    "version": "0.2.1",
+    "stats_version": null
+  },
+  {
     "pkgname": "RAQSAPI",
     "submitted": "mccroweyclinton-EPA",
     "iss_no": 744,
