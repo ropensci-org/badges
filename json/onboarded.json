@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "saperlipopette",
+    "submitted": "maelle",
+    "iss_no": 754,
+    "status": "unknown",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "nycOpenData",
     "submitted": "martinezc1",
     "iss_no": 750,
