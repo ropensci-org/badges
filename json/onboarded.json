@@ -155,9 +155,9 @@
     "pkgname": "reviser",
     "submitted": "marcburri",
     "iss_no": 709,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.0.9000",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "rixpress",
