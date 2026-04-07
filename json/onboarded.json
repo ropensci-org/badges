@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "lakefetch",
+    "submitted": "jeremylfarrell",
+    "iss_no": 762,
+    "status": "unknown",
+    "version": "0.1.3",
+    "stats_version": null
+  },
+  {
     "pkgname": "pvEBayes",
     "submitted": "YihaoTancn",
     "iss_no": 760,
