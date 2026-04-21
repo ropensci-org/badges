@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "EpiStrainDynamics",
+    "submitted": "smwindecker",
+    "iss_no": 763,
+    "status": "unknown",
+    "version": "0.0.1.0000",
+    "stats_version": null
+  },
+  {
     "pkgname": "lakefetch",
     "submitted": "jeremylfarrell",
     "iss_no": 762,
