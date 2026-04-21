@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "ciecl",
+    "submitted": "Rodotasso",
+    "iss_no": 765,
+    "status": "unknown",
+    "version": "0.9.6",
+    "stats_version": null
+  },
+  {
     "pkgname": "EpiStrainDynamics",
     "submitted": "smwindecker",
     "iss_no": 763,
