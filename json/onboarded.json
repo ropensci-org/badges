@@ -120,6 +120,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "LBDiscoverAnalysis",
+    "submitted": "chaoliu-cl",
+    "iss_no": 725,
+    "status": "unknown",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "cowfootR",
     "submitted": "juanmarcosmoreno-arch",
     "iss_no": 724,
