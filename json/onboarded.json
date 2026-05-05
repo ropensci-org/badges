@@ -40,6 +40,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "metasurvey",
+    "submitted": "mauroloprete",
+    "iss_no": 752,
+    "status": "unknown",
+    "version": "0.0.21",
+    "stats_version": null
+  },
+  {
     "pkgname": "nycOpenData",
     "submitted": "martinezc1",
     "iss_no": 750,
