@@ -30,7 +30,7 @@ jobs:
         with:
           packages: |
             any::dplyr
-            any::gh
+            github::r-lib/gh
             any::jsonlite
 
       - name: Make svgs
