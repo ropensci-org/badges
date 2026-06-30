@@ -227,9 +227,9 @@
     "pkgname": "priorsense",
     "submitted": "n-kall",
     "iss_no": 704,
-    "status": "pending",
+    "status": "reviewed",
     "version": "1.1.1.9000",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "partialling.out",
