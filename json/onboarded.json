@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "OptSurvCutR",
+    "submitted": "paytonyau",
+    "iss_no": 777,
+    "status": "unknown",
+    "version": "0.10.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "grumpy",
     "submitted": "Bisaloo",
     "iss_no": 775,
