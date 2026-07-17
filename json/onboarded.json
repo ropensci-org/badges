@@ -16,6 +16,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "tezr",
+    "submitted": "emraher",
+    "iss_no": 774,
+    "status": "unknown",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "HydraR",
     "submitted": "IgnatiusPang",
     "iss_no": 766,
