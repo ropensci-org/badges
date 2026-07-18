@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "nert",
+    "submitted": "max578",
+    "iss_no": 785,
+    "status": "unknown",
+    "version": "1.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "OptSurvCutR",
     "submitted": "paytonyau",
     "iss_no": 777,
