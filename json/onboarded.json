@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "ibger",
+    "submitted": "milkway",
+    "iss_no": 787,
+    "status": "unknown",
+    "version": "0.2.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "nert",
     "submitted": "max578",
     "iss_no": 785,
@@ -531,7 +539,7 @@
     "pkgname": "galamm",
     "submitted": "osorensen",
     "iss_no": 615,
-    "status": "pending",
+    "status": "reviewed",
     "version": "0.1.1.9000",
     "stats_version": null
   },
