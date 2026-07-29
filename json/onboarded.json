@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "brapiR2",
+    "submitted": "josh45-source",
+    "iss_no": 792,
+    "status": "unknown",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "ibger",
     "submitted": "milkway",
     "iss_no": 787,
