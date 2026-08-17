@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "camtrapReport",
+    "submitted": "spatialecology",
+    "iss_no": 799,
+    "status": "unknown",
+    "version": "1.0.47",
+    "stats_version": null
+  },
+  {
     "pkgname": "brapiR2",
     "submitted": "josh45-source",
     "iss_no": 792,
