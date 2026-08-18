@@ -11,7 +11,7 @@
     "pkgname": "brapiR2",
     "submitted": "josh45-source",
     "iss_no": 792,
-    "status": "unknown",
+    "status": "pending",
     "version": "0.1.0",
     "stats_version": null
   },
@@ -147,7 +147,7 @@
     "pkgname": "RAMEN",
     "submitted": "ErickNavarroD",
     "iss_no": 743,
-    "status": "pending",
+    "status": "reviewed",
     "version": "2.0.0",
     "stats_version": null
   },
