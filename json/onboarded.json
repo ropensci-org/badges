@@ -101,7 +101,7 @@
     "iss_no": 760,
     "status": "reviewed",
     "version": "0.2.2",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "saperlipopette",
@@ -565,7 +565,7 @@
     "iss_no": 615,
     "status": "reviewed",
     "version": "0.1.1.9000",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "comtradr",
@@ -2189,14 +2189,6 @@
     "iss_no": 102,
     "status": "reviewed",
     "version": "0.1",
-    "stats_version": null
-  },
-  {
-    "pkgname": "cmipr",
-    "submitted": "sckott",
-    "iss_no": 99,
-    "status": "pending",
-    "version": "0.0.8.9310",
     "stats_version": null
   },
   {
