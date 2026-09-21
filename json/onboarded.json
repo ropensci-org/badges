@@ -1,9 +1,17 @@
 [
   {
+    "pkgname": "tarpolyglot",
+    "submitted": "Pierre9344",
+    "iss_no": 805,
+    "status": "unknown",
+    "version": "0.3.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "camtrapReport",
     "submitted": "spatialecology",
     "iss_no": 799,
-    "status": "unknown",
+    "status": "pending",
     "version": "1.0.47",
     "stats_version": null
   },
