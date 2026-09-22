@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "corila",
+    "submitted": "rauschenberger",
+    "iss_no": 808,
+    "status": "unknown",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "tarpolyglot",
     "submitted": "Pierre9344",
     "iss_no": 805,
