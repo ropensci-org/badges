@@ -109,7 +109,7 @@
     "iss_no": 763,
     "status": "reviewed",
     "version": "0.0.1.0000",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "lakefetch",
