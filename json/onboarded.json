@@ -48,6 +48,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "seasight",
+    "submitted": "p-wegmueller",
+    "iss_no": 786,
+    "status": "unknown",
+    "version": "0.1.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "nert",
     "submitted": "max578",
     "iss_no": 785,
