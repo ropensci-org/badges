@@ -285,7 +285,7 @@
     "iss_no": 718,
     "status": "reviewed",
     "version": "0.1.4",
-    "stats_version": null
+    "stats_version": "0.2"
   },
   {
     "pkgname": "coevolve",
