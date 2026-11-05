@@ -1,5 +1,13 @@
 [
   {
+    "pkgname": "GeneExprLupusMx",
+    "submitted": "EveliaCoss",
+    "iss_no": 824,
+    "status": "unknown",
+    "version": "0.1.0.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "ocean3d",
     "submitted": "JayMatsushiba",
     "iss_no": 811,
@@ -27,7 +35,7 @@
     "pkgname": "qualtdict",
     "submitted": "lyh970817",
     "iss_no": 807,
-    "status": "unknown",
+    "status": "pending",
     "version": "0.1.0",
     "stats_version": null
   },
