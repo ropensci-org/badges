@@ -16,6 +16,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "dyadicMarkov",
+    "submitted": "BoellenruecherM",
+    "iss_no": 810,
+    "status": "unknown",
+    "version": "0.1.3.9000",
+    "stats_version": null
+  },
+  {
     "pkgname": "emodnet.wcs",
     "submitted": "maelle",
     "iss_no": 809,
@@ -99,7 +107,7 @@
     "pkgname": "grumpy",
     "submitted": "Bisaloo",
     "iss_no": 775,
-    "status": "unknown",
+    "status": "pending",
     "version": "0.1.1.9000",
     "stats_version": null
   },
