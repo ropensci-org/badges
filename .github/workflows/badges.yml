@@ -1,5 +1,8 @@
 name: update-badges
 
+permissions:
+  issues: write
+
 on:
   workflow_dispatch:
   push:
@@ -49,8 +52,8 @@ jobs:
 
       - name: Notify on failure
         if: ${{ failure() }}
-        uses: ropensci-review-tools/actions/ping-dev-team@v2
-        with:
-          REPO_NAME: 'badges'
-          ISSUE_NUM: 18
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          WFURL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh issue comment 18 --repo "${{ github.repository }}" \
+            -b "@ropensci-org/admin The dashboard workflow has failed at $WFURL."
