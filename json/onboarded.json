@@ -64,6 +64,14 @@
     "stats_version": null
   },
   {
+    "pkgname": "metasurvey.core",
+    "submitted": "mauroloprete",
+    "iss_no": 796,
+    "status": "pending",
+    "version": "0.3.0",
+    "stats_version": null
+  },
+  {
     "pkgname": "brapiR2",
     "submitted": "josh45-source",
     "iss_no": 792,
